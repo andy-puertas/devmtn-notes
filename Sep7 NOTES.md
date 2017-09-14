@@ -1,0 +1,28 @@
+## What is Massive.js
+When creating a server...
+- npm init -y {creates a package.json}
+- create a server folder
+- create an index.js inside that server folder
+- npm i --save body-parser express cors {and any other necc packages} {gives you node_modules folder}
+- nodemon
+- npm i --save dotenv {allows us to create environmental variables for our server in a .env file} !!!!!!!
+- copy URI from heroku into .env file as CONNECTION_STRING=""
+- require('dotenv').config(); in server/index.js
+- npm install --save massive
+- server/index // massive( process.env.CONNECTION_STRING );
+    - this connects our server to our database via massive
+    - postgres URI: username:password@host:port/databasename
+- .then( db => {console.log(db) app.set('NAME', VALUE)}) names and returns our database to the server in nodemon 
+- .catch(err=>console.log(err)) // returns "err" in our console log when an error is processed
+- back in .env: add ?ssl=true to the end of your CONNECTION_STRING
+
+## Seed files 
+
+## Getting Data from DB with Endpoints
+- Creating a get endpoint: app.get('/path/', callbackFunc(req, res)=> {})
+- 
+
+## Inserting Data to DB with Endpoints
+- Creating a post endpoint: app,post('/path', callbackFunc(req, res)=>{})
+
+## Req.Query
