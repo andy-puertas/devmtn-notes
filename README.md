@@ -1,6 +1,6 @@
-## DEVMTN NOTES
+# DEVMTN NOTES
 
-# by Onkar and Kylie
+## by Onkar and Kylie
 
 This contains the mini projects, afternoon projects, and compiled notes from the two of us + DevMountain.difference-engine
 
