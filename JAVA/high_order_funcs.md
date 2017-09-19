@@ -5,6 +5,7 @@
 
 - A higher order function is a like a mastermind with smaller functions that act as minions or workers.
 - A higher order function gets and uses other functions to perform parts.
+- Each take in three parameters: item, index, array
 
 ## forEach
 - Loops over all items in an array
@@ -27,6 +28,7 @@
     array.forEach( ( item, index, arr) => arr[index] = 7 )
 
 ## map
+- Loops through an array and spits out a new array of equal length
 - Works just like a forEach function
     array.map( function( item, index, arr) { } )
     array.map( ( item, index, arr) => { } )
@@ -45,6 +47,8 @@
     array === [1, 2, 4, 10]
 
 ## filter
+- Loops through an array and returns an array with only values we deem worthy 
+- Expects a true or false return
 - Works just like a forEach function
     array.filter( function( item, index, arr) { } )
     array.filter( ( item, index, arr) => { } )
@@ -62,6 +66,8 @@
 
 ## reduce
 - Works similar to a forEach function
+- Reduces an array down to a sum
+- Only higher order function that does not return an array
 - Adds a new prev parameter in the front
     array.reduce( function( prev, item, index, arr) { } )
     array.reduce( ( prev, item, index, arr) => { } )
@@ -80,3 +86,6 @@
     var reduceResult = array.reduce( ( prev, item ) => prev + item, 0 )
     reduceResult === 28
     array === [1, 2, 4, 10, 11]
+
+## sort
+- Sorts an array
