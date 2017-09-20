@@ -20,6 +20,7 @@
 
 // Sessions - allow us to /stay/ logged in once we've been authenticated 
     // req.session.user - logs information to that individual session (SID)
+    // user_id - what we use to confirm whether or not this user already has an account on our db (when using Auth0)
 
 //////////////////
 // STEP BY STEP //
@@ -30,7 +31,6 @@
         // massive: if we were connecting to the database
         // axios: not needed for authentication purposes 
     // create "server" folder >> server.js 
-
     const express = require('express');
           bodyParser = require('body-parser');
           session = require('express-session');
@@ -48,7 +48,6 @@
 
     // now utilize new packages
     // passport and passport-auth0
-
     app.use( passport.initialize() );
     app.use( passport.session() );
 
@@ -62,7 +61,6 @@
     }));
 
     // create some endpoints 
-
     app.get('/auth', passport.authenticate('auth0'));
     app.get('/auth/callback', passport.authenticate('auth0', {
         successRedirect: 'http://localhost:3000/',
@@ -70,7 +68,6 @@
     }));
 
     // required for passport-auth0
-
     passport.serializeUser(function(user, done) {
         done(null, user);
     });
