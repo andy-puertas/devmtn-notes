@@ -1,4 +1,4 @@
--- Foreign Keys Review
+-- Foreign Keys & Join Review
 
 -- Primary Keys cannot be repeated, but Foreign Keys can! 
 
@@ -20,13 +20,13 @@ CREATE TABLE Purchases (
     Customer INTEGER REFERENCES Customers(id),
     PurchaseID SERIAL INTEGER PRIMARY KEY,
     Item VARCHAR(255)
-)
+);
 
 INSERT INTO Purchases (Customer, Item)
 VALUES (1, 'Supplies'), (1, 'Easel'), (1, 'Paintbrush'), (1, 'Paints');
 
 -- Join is used for display purposes, not table modification
--- The following values are displayed (in order): id, Name, Customer, PurchaseID, Item
 SELECT *
 FROM Customers
 JOIN Purchases ON Purchases.Customer=Customers.id;
+-- The following values are displayed (in order): id, Name, Customer, PurchaseID, Item
