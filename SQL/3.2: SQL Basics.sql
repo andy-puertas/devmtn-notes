@@ -49,7 +49,6 @@
     -- add multiple values on the same line, separate using (), (), ();
     INSERT INTO TableName (column1, column2)
     VALUES (column1value0, column2value0), (column1value1, column2value1);
-
     -- 
     UPDATE TableName 
     SET ColumnName = NewName
