@@ -53,7 +53,7 @@ Getting Started with JavaScript
 
 Function EXPRESSION | vs | Function DECLARATION:
 ------------------- | -- | ---------------------
-var sayName = function(){ | | function sayName(){
+var sayName = function() { | | function sayName() {
 
 # … call … invoke … run
 + When you declare a function, you announce its (parameters).
