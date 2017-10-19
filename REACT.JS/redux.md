@@ -28,24 +28,24 @@ Redux
 - Use Redux when you need to streamline communication between non-parent-child (grandparent-grandchild, uncle-child, a child being referred to globally)
 - Rather than explicitly telling React to update state, we tell Redux that an action occured. The reducers decide how to update their state(s)
 
-## What are the steps to add Redux to a React app?
+### What are the steps to add Redux to a React app?
 - `npm i --save redux react-redux`
 - `import { Provider } from 'react-redux';` 
 - in `index.js` --> wrap `<App>` in `<Provider>` tags, key step
 
-## What is a store?
+### What is a store?
 - Where we create and keep state that is meant to be shared across the app
 - `import { createStore } from 'redux’;`
 - `{ applyMiddleware } from ‘redux’; `
 - `{ combineReducers } from ‘redux’;` allows you to combine multiple reducers and create one, massive encompassing reducer
 
-## What is a reducer? What does the reducer do for us in Redux?
+### What is a reducer? What does the reducer do for us in Redux?
 - A constructor function within our store
 - Receives state and action type
 - Determines when state needs to update, dependent on instances occuring within your app
 - When an action happens, new state should update
 
-## What is immutability? Why do we use it?
+### What is immutability? Why do we use it?
 - Changes made are not reflected on the original. They are immutable.
 - What makes re-rendering our app quicker
 - Redux requires that we don't mutate state
