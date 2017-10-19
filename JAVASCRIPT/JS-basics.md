@@ -157,32 +157,35 @@ var sayName = function() { } | | function sayName() { }
 var {first_name} = employee;
 let {first_name} = employee;
 ```
-                                                     
+
 - It is possible to use destructuring to refer to a value within parameters of another function 
     - Used often as shorthand in React
     - `function aPerson({name, friends, race}, greeting, age){ } `
 
 ## indexOf
 - Gets the index of a given item
-    array.indexOf(7) -> Returns the index of the first time it found 7
+`array.indexOf(7)` => Returns the index of the first instance in which it found `7`
 
 - Works with strings, numbers, booleans
-    array.indexOf(22)
-    array.indexOf("twenty two")
-    array.indexOf(false)
+
+            array.indexOf(22)
+            array.indexOf("twenty two")
+            array.indexOf(false)
+
     returns -1 if no match found
 
-    array.indexOf(18) -> Returns -1 because 18 is not in the array can start later
+    `array.indexOf(18)` -> Returns -1 because 18 is not in the array can start later
 
-    array.indexOf(10, 3) -> Returns the index of 10, but only starts looking at index 3.
+    `array.indexOf(10, 3)` -> Returns the index of 10, but only starts looking at index 3.
 
 ## split
 - Breaks a string based on a character
-    "hello, my, name, is, Jeremy".split(',')
+    - `"hello, my, name, is, Jeremy".split(',')`
 
 - Hard coded strings or variables
-    str.split(',')
+    - `str.split(',')`
 
 - Returns an array with each chunk as a new item
-    var splitArr = "hello, my, name, is, Jeremy".split(',')
-    splitArr === ["hello", " my", " name", " is", " Jeremy"]
+
+        var splitArr = "hello, my, name, is, Jeremy".split(',')
+        splitArr === ["hello", " my", " name", " is", " Jeremy"]
