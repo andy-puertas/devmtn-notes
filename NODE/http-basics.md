@@ -22,7 +22,7 @@
 - For example… `mailto:user@test101.com`  `telnet://www.nowhere123.com/` `ftp://www.ftp.org/docs/test/txt`
 - Whenever you enter a URL in the address box of the browser, the browser translates the URL into a request message according to specified protocol
 
-## **H**yper**T**ext **T**ransfer **P**rotocol
+### **H**yper**T**ext **T**ransfer **P**rotocol
 ## otherwise known as HTTP Requests:
 - This is communication between a computer and a server, a request is sent to get the HTML and then everything else attached to it.
 - HTTP Requests are stateless -- they don't remember anything 
@@ -48,7 +48,7 @@
     * `3xx` (Redirection): Further action must be taken in order to complete the request.
     * `4xx` (Client Error): The request contains bad syntax or cannot be understood.
     * `5xx` (Server Error): The server failed to fulfill an apparently valid request. 
-    
+
 - Some commonly encountered status codes...
     * `100 Continue`: The server received the request and in the process of giving the response.
     * `200 OK`: The request is fulfilled.

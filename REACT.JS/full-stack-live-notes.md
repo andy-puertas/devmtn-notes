@@ -28,7 +28,7 @@
 
             process.env.SECRET, process.env.AUTH_DOMAIN, process.env.AUTH_CLIENT_ID,   process.env.AUTH_CLIENT_SECRET, process.env.AUTH_CALLBACK
 
-        - DON'T FORGET: Toggle OEDP to `off` in the Advanced Settings on new clients 
+        - _DON'T FORGET:_ Toggle OEDP to `off` in the Advanced Settings on new clients 
 
     - f: more passport invokation needed
 
