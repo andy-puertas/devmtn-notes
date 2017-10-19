@@ -37,4 +37,4 @@ const styles = {
 
 // make the component available to other parts of the app
 // not necessary to make immediately available to the device
-export default Header;
+export {Header};
