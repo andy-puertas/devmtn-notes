@@ -119,11 +119,11 @@ Array References
         - Can be used on multiple strings
         - As seen in: 
 
-            var myGirls = [“Cecilie”, “Kathy”];
-            var myBoys = [“Marco”, “Ryan”, “Paul”];
-            var myDogs = [“Spot”, “Otis”];
-            var allMyChildren = myGirls.concat(myBoys, myDogs); 
-            // returns [“Cecilie”, “Kathy”, “Marco”, “Ryan”, “Paul”, “Spot”, “Otis”]
+                var myGirls = [“Cecilie”, “Kathy”];
+                var myBoys = [“Marco”, “Ryan”, “Paul”];
+                var myDogs = [“Spot”, “Otis”];
+                var allMyChildren = myGirls.concat(myBoys, myDogs); 
+                // returns [“Cecilie”, “Kathy”, “Marco”, “Ryan”, “Paul”, “Spot”, “Otis”]
 
 8. Slicing an Array
     + `slice()`
