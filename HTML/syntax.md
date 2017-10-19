@@ -24,13 +24,13 @@
 
 - Search engines use the headings to index the structure and content of your web pages.
 
-- Horizontal Rules:
-    + The `<hr>` tag defines a thematic break in an HTML page. Most often displayed as a horizontal rule. 
-    + The `<hr>` element is used to separate content (or define a change) in an HTML page. 
-    + The HTML `<head>` element has nothing to do with HTML headings. 
-    + The `<head>` is a container for metadata. HTML metadata is about the document. This metadata is not displayed. 
-    + The `<head>` element is placed between the `<html>` tag and the `<body>` tag
-    + For example…
+### Horizontal Rules:
++ The `<hr>` tag defines a thematic break in an HTML page. Most often displayed as a horizontal rule. 
++ The `<hr>` element is used to separate content (or define a change) in an HTML page. 
++ The HTML `<head>` element has nothing to do with HTML headings. 
++ The `<head>` is a container for metadata. HTML metadata is about the document. This metadata is not displayed. 
++ The `<head>` element is placed between the `<html>` tag and the `<body>` tag
++ For example…
 
         <!DOCTYPE html>
         <html>
