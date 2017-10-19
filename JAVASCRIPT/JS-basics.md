@@ -40,8 +40,31 @@ Getting Started with JavaScript
     - single `=` indicates assignment
     - `==` or `===` indicates comparison (as seen in boolean values)
 
+## Arrays 
+- Primary structure for storing multiple items of information
+- Index starts at 0 for the first var (instead of 1) - "zero based index"
+- var arr = ['Proper', 'syntax', 'is', 'brackets', 'and', 'commas'];
+          index: 0        1       2       3           4       5
+- Manipulating arrays:
+    + Accessing values: 
+        arr[0]; <- returns "Proper"
+        arr[4]; <- returns "and"
+    + Adding values:
+        arr.push(this); <- adds ['this'] to the end of the array
+        arr.unshift(this); <- adds ['this'] to the beginning of the array
+    + Removing values:
+        arr.pop; <- removes last item ['commas'] from the end of the array
+        arr.shift; <- removes first item ['Proper'] from the beginning of the array
+    * See high_order_funcs.md and reference_methods.md for additional array ref methods
+- When accessing arrays, you often need to create a loop to "go through" / loop the array
+  For example...
+    var threeHellos = [];
+    for (var i=0; i<3; i++) {
+        threeHellos.push('hello');
+    };
+    threeHellos; <- has become ['hello', 'hello', 'hello']
 
-## Functions
+# Functions
 - Used to save and reuse/repeat code, by using Parameters 
 - parameters: outside data being used as an argument in the function
 
@@ -53,9 +76,9 @@ Getting Started with JavaScript
 
 Function EXPRESSION | vs | Function DECLARATION:
 ------------------- | -- | ---------------------
-var sayName = function() { | | function sayName() {
+var sayName = function() { } | | function sayName() { }
 
-# … call … invoke … run
+## … call … invoke … run!
 + When you declare a function, you announce its (parameters).
 + When you call a function, you specify (arguments). 
 + Indexes matter in (parameters). ValueType must align. 
@@ -67,7 +90,7 @@ var sayName = function() { | | function sayName() {
     U pdate —   Put
     D elete —   Delete
 
-# Returning Functions from a Function…
+## Returning Functions from a Function…
     function shoeMachineMaker(color) {
         return function(){
             return color + ‘ ‘ + ‘shoe’;
@@ -75,7 +98,6 @@ var sayName = function() { | | function sayName() {
     };
 
     greenShoeMaker = shoeMachineMaker(‘green’); // returns the string ‘green shoe’ 
-
 
 ## Scope
 - The contact in which values and expressions are “visible.” Global scope is “visible” to all of your code.
@@ -106,7 +128,7 @@ var sayName = function() { | | function sayName() {
             };          
 
 
-### Ternary Operator  
+## Ternary Operator  
 - Triggered by the '?'
 - {CONDITIONS} ? {VALID STATEMENT} : {INVALID STATEMENT};
 
@@ -119,38 +141,16 @@ For example…
             newStr = 99;
         }
 
-## Arrays 
-- Primary structure for storing multiple items of information
-- Index starts at 0 for the first var (instead of 1) - "zero based index"
-- var arr = ['Proper', 'syntax', 'is', 'brackets', 'and', 'commas'];
-          index: 0        1       2       3           4       5
-- Manipulating arrays:
-    + Accessing values: 
-        arr[0]; <- returns "Proper"
-        arr[4]; <- returns "and"
-    + Adding values:
-        arr.push(this); <- adds ['this'] to the end of the array
-        arr.unshift(this); <- adds ['this'] to the beginning of the array
-    + Removing values:
-        arr.pop; <- removes last item ['commas'] from the end of the array
-        arr.shift; <- removes first item ['Proper'] from the beginning of the array
-    * See high_order_funcs.md and reference_methods.md for additional array ref methods
-- When accessing arrays, you often need to create a loop to "go through" / loop the array
-  For example...
-    var threeHellos = [];
-    for (var i=0; i<3; i++) {
-        threeHellos.push('hello');
-    };
-    threeHellos; <- has become ['hello', 'hello', 'hello']
 
-
-
-#####################
-### DESTRUCTURING ###
-#####################
+# Destructuring
 - Used to change an unnatttractive object formation to a more readable line of code
-var name = employee.first_name;        … becomes …          var {first_name} = employee;
-                                                            let {first_name} = employee;
+`var name = employee.first_name;`
+    … becomes … 
+```
+var {first_name} = employee;
+let {first_name} = employee;
+```
+                                                            
 - It is possible to use destructuring to refer to a value within parameters of another function 
     + Used often as shorthand in React
     function aPerson({name, friends, race}, greeting, age){ } 
