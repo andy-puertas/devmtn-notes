@@ -12,9 +12,11 @@ JS BASICS
 
 ## Variables
 - Our primary method for item storage 
+
         var data;           <= variable declaration
         data = 7;           <= assigning that variable a value
         var data = 7;       <= assignment in its simplest form
+
 - Can be assigned any data type
 
 ## Data Types
@@ -26,8 +28,10 @@ JS BASICS
     - as seen in: `var myVar;` or: `myVar = undefined;`
 - String
     + as seen in: 
+
             var myString = “7”;
             var myInt = parseInt(myString, 10);
+            
     + would return the numerical value 7 instead of the value-less “7"
 - Number: only one type of number in JavaScript
 - `{Object};`
