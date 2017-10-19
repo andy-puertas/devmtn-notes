@@ -1,9 +1,9 @@
 JS BASICS 
 ===========
 ## How does the web work?
-    - `HTTP://` = Hyper Text Transfer Protocol
-    - => REST: Most popular HTTP format
-    - => JSON: Preferred format for sending data and forth (JavaScript Object Notation)
+- `HTTP://` = Hyper Text Transfer Protocol
+- => REST: Most popular HTTP format
+- => JSON: Preferred format for sending data and forth (JavaScript Object Notation)
 
 ## Script Tags 
 - Used to run your code file on a web page. 
@@ -12,35 +12,29 @@ JS BASICS
 
 ## Variables
 - Our primary method for item storage 
-
         var data;           <= variable declaration
         data = 7;           <= assigning that variable a value
         var data = 7;       <= assignment in its simplest form
-
 - Can be assigned any data type
 
 ## Data Types
-- Boolean
-- Null 
-    + `null` is _not_ undefined
-- Undefined 
-    + a way to signify there is no value assigned yet, but there could be later
-        - for example, if a value is not yet available as in a survey question not yet answered, data not yet received or input
-        - as seen in: `var myVar;` or: `myVar = undefined;`
+- Boolean: true or false
+- Null: undefined value
+    - `null` is _not_ undefined
+- Undefined: a way to signify there is no value assigned yet, but there could be later
+    - for example, if a value is not yet available as in a survey question not yet answered, data not yet received or input
+    - as seen in: `var myVar;` or: `myVar = undefined;`
 - String
     + as seen in: 
-    
             var myString = “7”;
             var myInt = parseInt(myString, 10);
-        
     + would return the numerical value 7 instead of the value-less “7"
-- Number // only one type of number in JavaScript
-- {Object};
-- [Array] 
-    + a list, a set of elements — can be multiple data types
+- Number: only one type of number in JavaScript
+- `{Object};`
+- [Array]: a list, a set of elements — can be multiple data types
 - Function
-    single "=" indicates assignment
-    "==" or "===" indicates comparison
+    - single `=` indicates assignment
+    - `==` or `===` indicates comparison (as seen in boolean values)
 
 
 ## Functions
