@@ -55,16 +55,16 @@ we have to tell React Native to render components
     - 'inspect' the dev console 
 
 ## Start building 'Albums'
-- What is this app supposed to look like?
-    - a single card, displays Album Name, Artist Name at the top
-    - displays an image of the Album Cover in the body of the card
-    - "Buy Now" button at the bottom of the card
-    - "Albums" Title Bar
-        - => HEADER, 
-        - => CARD, 
-        - => CARDSECTION-HEADER, 
-        - => CARDSECTION-BODY, 
-        - => CARDSECTION-FOOTER
+What is this app supposed to look like?
+- a single card, displays Album Name, Artist Name at the top
+- displays an image of the Album Cover in the body of the card
+- "Buy Now" button at the bottom of the card
+- "Albums" Title Bar
+    - => HEADER, 
+    - => CARD, 
+    - => CARDSECTION-HEADER, 
+    - => CARDSECTION-BODY, 
+    - => CARDSECTION-FOOTER
 
 1. Structuring the Header Component
     - 1 component per file 
