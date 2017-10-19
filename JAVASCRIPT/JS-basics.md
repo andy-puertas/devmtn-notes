@@ -1,5 +1,14 @@
 Getting Started with JavaScript 
 ===========
+
+## Todd's Focus Questions:
+- _How do you loop through an Object? Why do you have to do it that way?_
+- _What is a method?_
+- _What is a constructor function?_
+- _Why do we prefer prototypes over creating functions in objects?_
+- _Can you add prototypes to existing data types?_
+- _What is the difference between classes and constructor function?_
+
 ## How does the web work?
 - `HTTP://` = Hyper Text Transfer Protocol
 - => `REST`: Most popular HTTP format

@@ -1,4 +1,13 @@
-## Objects
+# Objects
+
+## Todd's Focus Questions:
+- _What is a Key/Value pair?_
+- _What are the differences between dot notation and bracket notation?_
+- _How are arrays and objects different? How are the same?_
+- _What is a method?_
+- _What are some methods we can use to change the contents of an array?_
+- _What purpose does a callback serve?_
+
 
 ### Classes Build Objects
 - Using classes as a construct to help us build objects
