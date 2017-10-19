@@ -1,8 +1,7 @@
 ## Starting with React Native
 ### following Wes Bos' [Udemy Course](https://www.udemy.com/the-complete-react-native-and-redux-course/learn/v4/content)
-### Project One: an app that renders a list of Albums
 
-react | react-native
+REACT | REACT-NATIVE
 ----- | -------------
 knows how a component should behave | knows how to take the output from a component and place it on the screen
 knows how to take a bunch of components and make them work together | provides default core components (image, text)
@@ -15,8 +14,8 @@ used for presenting static data | used for dynamic sources of data
 can't handle fetching data | handles any data that might change (fetching data, user events, etc)
 easy to write | knows when it gets rendered to the device (useful for data fetching)
 typically used for displaying simple data to the user | more code to write
- | only requirement: a render method must be defined 
- | have the advantage of LifeCycle Methods - know when they are about to be rendered        
+⛔️ | only requirement: a render method must be defined 
+⛔️ | have the advantage of LifeCycle Methods - know when they are about to be rendered        
 
 
 
