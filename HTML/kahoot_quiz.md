@@ -1,26 +1,34 @@
 ## ROUND ONE
 
-- Inline elements default width is... 
-
-<details>
-<summary> <code> answer </code> </summary>
-`only what they need`
-</details>
-
-- What is the correct HTML element for inserting a line break? 
+### Inline elements default width is... 
     <details>
     <summary> <code> answer </code> </summary>
-    `<br>`
+    only what they need
     </details>
 
-- What doctype is correct for HTML5? 
+### What is the correct HTML element for inserting a line break? 
     <details>
     <summary> <code> answer </code> </summary>
-    `<!DOCTYPE html>`
+    ```
+    <br>
+    ```
     </details>
 
-- How can you make a bulleted list? 
-    - `<ul>`
+### What doctype is correct for HTML5? 
+    <details>
+    <summary> <code> answer </code> </summary>
+    ```
+    <!DOCTYPE html>
+    ```
+    </details>
+
+### How can you make a bulleted list? 
+    <details>
+    <summary> <code> answer </code> </summary>
+    ```
+    <ul>
+    ```
+    </details>
 
 - What is the correct HTML for inserting an image? 
     - `img src = “image.jpg" alt = “MyImage"`
