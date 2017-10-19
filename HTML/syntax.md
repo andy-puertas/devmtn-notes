@@ -94,7 +94,7 @@
     * `style=` — specifies an inline CSS style for an element.
 
 
-## STRING WRAP METHODS 
+## String Wrap Methods
 * `anchor()` — creates an anchor
 * `big()` — displays string using a big font
 * `blink()` — displays a blinking string
