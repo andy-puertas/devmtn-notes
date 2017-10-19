@@ -44,7 +44,7 @@ Getting Started with JavaScript
 - Primary structure for storing multiple items of information
 - Index starts at 0 for the first var (instead of 1) - "zero based index"
 - `var arr = ['Proper', 'syntax', 'is', 'brackets', 'and', 'commas'];`
-- .......... index: `0` ................ `1` ........ `2` ......... `3` ........... `4` .......... `5`
+- .......... index: .... `0` ............ `1` ........ `2` ......... `3` ........... `4` .......... `5`
 - Manipulating arrays:
     + Accessing values: 
         - `arr[0];` <- returns "Proper"
