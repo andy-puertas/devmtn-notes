@@ -27,12 +27,12 @@ Getting Started with JavaScript
     - for example... if a value is not yet available ( asurvey question not yet answered), this data is not yet received or input anywhere
     - as seen in: `var myVar;` or: `myVar = undefined;`
 - **String**
-    + as seen in: 
+    - as seen in: 
 
             var myString = “7”;
             var myInt = parseInt(myString, 10);
 
-    + would return the numerical value 7 instead of the value-less “7"
+    - would return the numerical value 7 instead of the value-less “7"
 - **Number**
 - **Object**: indicated with `{}`
 - **Array**: indicated with `[]`, a list, a set of elements. Can contain multiple data types
@@ -46,13 +46,13 @@ Getting Started with JavaScript
 - `var arr = ['Proper', 'syntax', 'is', 'brackets', 'and', 'commas'];`
 - .......... index: .... `0` ............ `1` ........ `2` ......... `3` ......... `4` .......... `5`
 - Manipulating arrays:
-    + Accessing values: 
+    - Accessing values: 
         - `arr[0];` <- returns "Proper"
         - `arr[4];` <- returns "and"
-    + Adding values:
+    - Adding values:
         - `arr.push(this);` <- adds `['this']` to the end of the array
         - `arr.unshift(this);` <- adds `['this']` to the beginning of the array
-    + Removing values:
+    - Removing values:
         - `arr.pop;` <- removes last item `['commas']` from the end of the array
         - `arr.shift;` <- removes first item `['Proper']` from the beginning of the array
     * See high_order_funcs.md and reference_methods.md for additional array ref methods
@@ -80,12 +80,12 @@ Function EXPRESSION | vs | Function DECLARATION:
 var sayName = function() { } | | function sayName() { }
 
 ## … call … invoke … run!
-+ When you declare a function, you announce its (parameters).
-+ When you call a function, you specify (arguments). 
-+ Indexes matter in (parameters). Value type must align. 
-+ Function declaration is the safer pattern to start with. Less unknown bugs occur in code when using this method. 
-+ When the function is returned, the function is exited and nothing else within the original function is executed. 
-+ Basic functionality:
+- When you declare a function, you announce its (parameters).
+- When you call a function, you specify (arguments). 
+- Indexes matter in (parameters). Value type must align. 
+- Function declaration is the safer pattern to start with. Less unknown bugs occur in code when using this method. 
+- When the function is returned, the function is exited and nothing else within the original function is executed. 
+- Basic functionality:
     - C reate —   Post 
     - R ead —     Get
     - U pdate —   Put
@@ -105,8 +105,8 @@ var sayName = function() { } | | function sayName() { }
 - The contact in which values and expressions are “visible.” Global scope is “visible” to all of your code.
 - There _is_ a hierarchy. Child scope can have access to parent scopes, but not vice versa. 
     - (We’re in here but they’re out there. We know what in here _and_ out there looks like. They only know what out there looks like.)
-    + Rules of scope: “Look up, never down”
-    + Lexical Scope:
+    - Rules of scope: “Look up, never down”
+    - Lexical Scope:
         - Local variables take priority within a function. 
         - Parent variable vs. child variable all over again
 
@@ -119,7 +119,7 @@ var sayName = function() { } | | function sayName() { }
                 };
                 babyLunch; // returns ‘filet mignon’
 
-    + Using `let`:
+    - Using `let`:
         - Only valid variable assignment method when used within a parent function
             - aka: must be inside of { curly braces } to be valid. 
         - Does not apply to variable callbacks beyond its own lexical scope. 
