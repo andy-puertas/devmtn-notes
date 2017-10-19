@@ -1,15 +1,18 @@
-// Callbacks!
-// Can be used to delay a message
-    function delayedBirthday() {
-        console.log('Happy Late Birthday!');
-    }; 
-    setTimeout(delayedBirthday, 1000);
+## Callbacks
+- Can be used to delay a message
 
-// Can be used to determine order in a function
-    createWorldPeace(solveWorldHunger);
-    // "before we can create World Peace, we must solve World Hunger"
+        function delayedBirthday() {
+            console.log('Happy Late Birthday!');
+        }; 
+        setTimeout(delayedBirthday, 1000);
 
-// When using callbacks...
-    function takesACallback(num, callbackFunc) {
-        callbackFunc(num); // <-- this is the function callback
-    };
+- Can be used to determine order in a function
+
+        createWorldPeace(solveWorldHunger);
+        // "before we can create World Peace, we must solve World Hunger"
+
+- When using callbacks...
+
+        function takesACallback(num, callbackFunc) {
+            callbackFunc(num); // <-- this is the function callback
+        };
