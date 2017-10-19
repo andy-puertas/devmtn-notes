@@ -1,45 +1,53 @@
-// FULLLLLLLLL
-// STTTTAAAACCCCKKKKK
-// SSIIIIIMMMMUUUULLLAAAATTTIIOOOOONNNN
-// Refer to : full-stack-review for implemented notes 
+## FULLLLLLLLL
+## STTTTAAAACCCCKKKKK
+## SSIIIIIMMMMUUUULLLAAAATTTIIOOOOONNNN
+## Refer to : full-stack-review for implemented notes 
 
-// 1: in server > server.js
-    // a: dependencies!
-        require('dotenv').config(); // syntax is key!  
-        // invoke them
-            const app = express();
-            app.use( session({
-                secret: 'xxxx', // pull this from .env
-                resave: false,
-                saveUninitialized: false
-            }));
-            app.use( passport.initialize() );
-            app.use( passport.session() );
-            passport.use( new Auth0Strategy({}, function(){} ));
+1. in `server` > `server.js`
+    - a: dependencies!
 
-    // b: `Docked to ${PORT}
+                require('dotenv').config(); // syntax is key!  
 
-    // c: package.json > "main": "./server/server.js" <-- allows you to run nodemon without designating a location
+    - b: invoke them
 
-    // d: set up client secrets and domains in > .env
-            process.env.SECRET, process.env.AUTH_DOMAIN, process.env.AUTH_CLIENT_ID, process.env.AUTH_CLIENT_SECRET, process.env.AUTH_CALLBACK
-            // DO NOT FORGET! 
-            // Toggle OEDP to "off" in the Advanced Settings on new clients 
+                const app = express();
+                app.use( session({
+                    secret: 'xxxx', // pull this from .env
+                    resave: false,
+                    saveUninitialized: false
+                }));
+                app.use( passport.initialize() );
+                app.use( passport.session() );
+                passport.use( new Auth0Strategy({}, function(){} ));
 
-    // e: more passport invokation needed
-        passport.serializeUser( function(user, done) { done(null, user) });
-        passport.deserializeUser( function(user, done) { done(null, user) });
+    - c: `Docked to ${PORT}`
 
-    // f: build out our authentication endpoints
-        // one for the general authentication process to kick off 
+    - d: `package.json` > `"main": "./server/server.js"` 
+        - ^^ allows you to run nodemon without designating a location
+
+    - e: set up client secrets and domains in > `.env`
+
+                process.env.SECRET, process.env.AUTH_DOMAIN, process.env.AUTH_CLIENT_ID,    process.env.AUTH_CLIENT_SECRET, process.env.AUTH_CALLBACK
+
+        - DON'T FORGET: Toggle OEDP to `off` in the Advanced Settings on new clients 
+
+    - f: more passport invokation needed
+
+                passport.serializeUser( function(user, done) { done(null, user) });
+                passport.deserializeUser( function(user, done) { done(null, user) });
+
+    - g: build out our authentication endpoints
+        - one for the general authentication process to kick off 
             app.get('/auth', passport.authenticate('auth0'));
-        // one for what happens when there's either a success or failure
-            app.get('/auth/callback', passport.authenticate('auth0', {
-                successRedirect: 'http://yourlink:here', 
-                failureRedirect: 'http://yourlink:here' // maybe set this to '/auth' so the user can try logging in again
-            }));
-            // this endpoint will redirect our callback to the front end
-            // however, our callback URL in client is the backend host 'http://localhost:3030/auth/callback'
+        - one for what happens when there's either a success or failure
+
+                    app.get('/auth/callback', passport.authenticate('auth0', {
+                        successRedirect: 'http://yourlink:here', 
+                        failureRedirect: 'http://yourlink:here' // maybe set this to '/auth' so the user can try logging in again
+                    }));
+
+        - this endpoint will redirect our callback to the front end
+        - however, our callback URL in client is the backend host `'http://localhost:3030/auth/callback'`
 
 // 2: get connected to Heroku
     // using CONNECTION_STRING
