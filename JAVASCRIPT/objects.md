@@ -74,8 +74,7 @@
     - would add 100 miles to `myCar`'s miles item
 
 ### Remember:
-- methods on an object cannot access properties on themselves
-- Closures!! 
+- methods on an object cannot access properties on themselves because *Closures!*
     - instead, add a function beyond the object declaration that refers back to the property
     - use dot notation
 
