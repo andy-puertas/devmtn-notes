@@ -103,8 +103,7 @@ Array References
     + `shift()`
     + `unshift()`
 
-4. Changing Elements
-    - Array elements are accessed using their index number
+4. Changing Elements: Array elements are accessed using their index number
     + `indexOf()`
     + `charAt()`
         
@@ -119,10 +118,12 @@ Array References
     + `concat()`
         - Can be used on multiple strings
         - As seen in: 
+
             var myGirls = [“Cecilie”, “Kathy”];
             var myBoys = [“Marco”, “Ryan”, “Paul”];
             var myDogs = [“Spot”, “Otis”];
-            var allMyChildren = myGirls.concat(myBoys, myDogs); // returns [“Cecilie”, “Kathy”, “Marco”, “Ryan”, “Paul”, “Spot”, “Otis”]
+            var allMyChildren = myGirls.concat(myBoys, myDogs); 
+            // returns [“Cecilie”, “Kathy”, “Marco”, “Ryan”, “Paul”, “Spot”, “Otis”]
 
 8. Slicing an Array
     + `slice()`
