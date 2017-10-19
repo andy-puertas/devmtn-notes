@@ -84,11 +84,14 @@
 
 
 ## Attributes 
-- All HTML elements can have attributes. They provide additional information about an element. Always specified in the start tag. Typically come in name/value pairs like: name=“value"
+- All HTML elements can have attributes. They provide additional information about an element. Always specified in the start tag. Typically come in name/value pairs (for example: `name=“value"`)
     * `lang=` — declares the language of the document in the `<html>` tag. 
-    * `title=` — declares the title of the paragraph in the `<p>` element. Specifies extra information about an element (displayed as a tool tip).     
-    * `href=` — defines an HTML image within the `<img>` tag. The filename of the source (`src`), and the size of the image (width and height) are all provided as separate attributes. 
-    * `alt=` — specifies an alternative text to be used when an image cannot be displayed, defined in the <img> tag. Is read out loud by screenreaders. 
+    * `title=` — declares the title of the paragraph in the `<p>` element
+        - Specifies extra information about an element (displayed as a tool tip).     
+    * `href=` — defines an HTML image within the `<img>` tag. 
+        - The filename of the source (`src`), and the size of the image (width and height) are all provided as separate attributes. 
+    * `alt=` — specifies an alternative text to be used when an image cannot be displayed, defined in the `<img>` tag
+        - Is read out loud by screenreaders. 
     * `disabled=` — specifies that an input element should be disabled. 
     * `id=` — specifies a unique id for the element. 
     * `style=` — specifies an inline CSS style for an element.
