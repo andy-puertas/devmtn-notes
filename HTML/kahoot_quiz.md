@@ -5,6 +5,8 @@ Round One
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
+<br>
 
 only what they need
 
@@ -15,6 +17,7 @@ only what they need
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 `<br>`
 
@@ -25,6 +28,7 @@ only what they need
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 `<!DOCTYPE html>`
 
@@ -35,6 +39,7 @@ only what they need
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
     
 `<ul>`
 
@@ -45,6 +50,7 @@ only what they need
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 `img src = “image.jpg" alt = “MyImage"`
 
@@ -55,6 +61,7 @@ only what they need
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 - `body style = “background-color: yellow;”`
 - `background-color` is not a CSS style reference
@@ -67,6 +74,7 @@ only what they need
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 - *FALSE*
 - forces a new line by occupying the entire width of the block above 
@@ -83,6 +91,7 @@ only what they need
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 2. `<img>` 
 
@@ -93,6 +102,7 @@ only what they need
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 - the full width of the page. 
 - inline elements only take what they need while block elements take the entire width
@@ -104,6 +114,7 @@ only what they need
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 - `<img>`
 - the “tag” refers to the beginning of the entire line of command in HTML, not attributes 
@@ -115,6 +126,7 @@ only what they need
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 `<html>`
 
@@ -130,6 +142,7 @@ only what they need
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
   
 2. `<h6>`   
 
@@ -140,6 +153,7 @@ only what they need
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 `<alt>`
 
@@ -150,6 +164,7 @@ only what they need
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 `<inline element>`
 
@@ -160,6 +175,7 @@ only what they need
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 - `<title>`
 - inside of the `<head>` 
@@ -171,6 +187,7 @@ only what they need
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 *TRUE*
 
@@ -185,6 +202,7 @@ only what they need
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 3. `<h1>`
 
@@ -195,6 +213,7 @@ only what they need
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 `attributes`. 
 
@@ -205,6 +224,7 @@ only what they need
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 - *TRUE*
 - HTML is case insensitive. It has no preference. 
@@ -220,6 +240,7 @@ only what they need
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 1. `<ol>` 
 
@@ -234,6 +255,7 @@ only what they need
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 3. `id` 
 
@@ -251,6 +273,7 @@ Round Two
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 1. `.items`
 
@@ -261,6 +284,7 @@ Round Two
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
     ```
     C ascading 
@@ -278,6 +302,7 @@ Round Two
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 `font-family: Arial;`
 
@@ -288,6 +313,7 @@ Round Two
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 Inside the `<style></style>` tags.
 
@@ -298,6 +324,7 @@ Inside the `<style></style>` tags.
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 `font-size: 30 px;`
 
@@ -313,6 +340,7 @@ Inside the `<style></style>` tags.
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 3. `#first-paragraph` 
 
@@ -323,6 +351,7 @@ Inside the `<style></style>` tags.
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 + Adds space between content and the containing box/border. 
 + `margin:` adds space between the border and other elements.  
@@ -338,6 +367,7 @@ Inside the `<style></style>` tags.
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 1. `color: red;`
 - Creates a separate section of text for styling purposes: `<div></div>`.
@@ -356,6 +386,7 @@ Round Three
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 1. `Element` 
 2. -> `Padding` 
@@ -369,6 +400,7 @@ Round Three
 
 <details>
 <summary> <code> answer </code> </summary>
+<br>
 
 + `border: 1px solid green;`
 + `width`, `style`, `color` --  always in this order
