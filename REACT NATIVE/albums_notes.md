@@ -14,7 +14,7 @@ used for presenting static data | used for dynamic sources of data
 can't handle fetching data | handles any data that might change (fetching data, user events, etc)
 easy to write | knows when it gets rendered to the device (useful for data fetching)
 typically used for displaying simple data to the user | more code to write
-⛔️ | only requirement: a render method must be defined 
+⛔️ | requirement: a render method _must_ be defined 
 ⛔️ | have the advantage of LifeCycle Methods - know when they are about to be rendered        
 
 
