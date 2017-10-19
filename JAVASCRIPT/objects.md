@@ -1,5 +1,6 @@
-## Classes
+## Objects
 
+### Classes Build Objects
 - Using classes as a construct to help us build objects
     - `class Music{} `
         - creates a new mold for the class of `Music`
