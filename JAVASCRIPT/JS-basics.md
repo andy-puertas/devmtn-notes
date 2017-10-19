@@ -20,23 +20,23 @@ Getting Started with JavaScript
 - Can be assigned any data type
 
 ## Data Types
-- Boolean: true or false
-- Null: non-value
+- **Boolean**: true or false
+- **Null**: non-value
     - `null` is _not_ undefined
-- Undefined: a way to signify there is no value assigned yet, but there could be later
+- **Undefined**: a way to signify there is no value assigned yet, but there could be later
     - for example... if a value is not yet available ( asurvey question not yet answered), this data is not yet received or input anywhere
     - as seen in: `var myVar;` or: `myVar = undefined;`
-- String
+- **String**
     + as seen in: 
 
             var myString = “7”;
             var myInt = parseInt(myString, 10);
 
     + would return the numerical value 7 instead of the value-less “7"
-- Number
-- Object: indicated with `{}`
-- Array: indicated with `[]`, a list, a set of elements. Can contain multiple data types
-- Function
+- **Number**
+- **Object**: indicated with `{}`
+- **Array**: indicated with `[]`, a list, a set of elements. Can contain multiple data types
+- **Function**
     - single `=` indicates assignment
     - `==` or `===` indicates comparison (as seen in boolean values)
 
@@ -174,8 +174,8 @@ let {first_name} = employee;
 
     - returns -1 if no match found
 
-`array.indexOf(18)` -> Returns -1 because 18 is not in the array can start later
-`array.indexOf(10, 3)` -> Returns the index of 10, but only starts looking at index 3.
+- `array.indexOf(18)` -> Returns -1 because 18 is not in the array can start later.
+- `array.indexOf(10, 3)` -> Returns the index of 10, but only starts looking at index 3.
 
 ## split
 - Breaks a string based on a character
