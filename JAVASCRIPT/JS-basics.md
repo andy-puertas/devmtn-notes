@@ -1,9 +1,9 @@
-JS BASICS 
+Getting Started with JavaScript 
 ===========
 ## How does the web work?
 - `HTTP://` = Hyper Text Transfer Protocol
-- => REST: Most popular HTTP format
-- => JSON: Preferred format for sending data and forth (JavaScript Object Notation)
+- => `REST`: Most popular HTTP format
+- => `.JSON`: Preferred format for sending data and forth (JavaScript Object Notation)
 
 ## Script Tags 
 - Used to run your code file on a web page. 
@@ -21,21 +21,21 @@ JS BASICS
 
 ## Data Types
 - Boolean: true or false
-- Null: undefined value
+- Null: non-value
     - `null` is _not_ undefined
 - Undefined: a way to signify there is no value assigned yet, but there could be later
-    - for example, if a value is not yet available as in a survey question not yet answered, data not yet received or input
+    - for example... if a value is not yet available ( asurvey question not yet answered), this data is not yet received or input anywhere
     - as seen in: `var myVar;` or: `myVar = undefined;`
 - String
     + as seen in: 
 
             var myString = “7”;
             var myInt = parseInt(myString, 10);
-            
+
     + would return the numerical value 7 instead of the value-less “7"
-- Number: only one type of number in JavaScript
-- `{Object};`
-- [Array]: a list, a set of elements — can be multiple data types
+- Number
+- Object: indicated with `{}`
+- Array: indicated with `[]`, a list, a set of elements. Can contain multiple data types
 - Function
     - single `=` indicates assignment
     - `==` or `===` indicates comparison (as seen in boolean values)
@@ -43,18 +43,20 @@ JS BASICS
 
 ## Functions
 - Used to save and reuse/repeat code, by using Parameters 
-    + parameters: outside data being used as an argument in the function
+- parameters: outside data being used as an argument in the function
+
         Function myFunction() {
             console.log(‘hello!’); 
         };
 
         myFunction(); //calls myFunction. 
 
-FUNCTION EXPRESSION           vs        FUNCTION DECLARATION:
+FUNCTION EXPRESSION | FUNCTION DECLARATION:
+------------------- | ---------------------
 
-var sayName = function(){               function sayName(){
-    alert(‘Fred’);                          alert(‘Fred’);
-}                                       }
+var sayName = function(){ | function sayName(){
+    alert(‘Fred’);              alert(‘Fred’);
+}                            }
   
 # … call … invoke … run
 + When you declare a function, you announce its (parameters).
