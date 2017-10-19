@@ -1,4 +1,4 @@
-### CSS Properties
+# CSS Properties
 
 ## Position
 * defaults to static, where elements render in order as they appear in the document flow
