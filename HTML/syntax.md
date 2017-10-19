@@ -1,8 +1,9 @@
-## DOCUMENTS:
-- All HTML documents must start with a document type declaration: <!DOCTYPE html>.
-- The HTML document itself begins with <html> and ends with </html>.
-- The visible park of the HTML document is between <body> and </body>.
-    For example…
+## Documents:
+- All HTML documents must start with a document type declaration: `<!DOCTYPE html>`.
+- The HTML document itself begins with `<html>` and ends with `</html>`.
+- The visible park of the HTML document is between `<body>` and `</body>`.
+- For example…
+
         <!DOCTYPE html>
         <html>
             <body>
@@ -11,14 +12,16 @@
             </body>
         </html> 
 
-## HEADINGS: 
+## Headings: 
 - HTML headings are ranked in order of important. 1 is most important and the larger value is of less importance. 
-- HTML headings are defined with the <h1> <h2> <h3> <h4> <h5> <h6> <h7> tags.
-- <h1> defines the most important heading. <h7> defines the least important. 
-    For example…
+- HTML headings are defined with the `<h1>` `<h2>` `<h3>` `<h4>` `<h5>` `<h6>` `<h7>` tags.
+- `<h1>` defines the most important heading. `<h7>` defines the least important. 
+- For example…
+
         <h1>This is heading 1</h1>
         <h2>This is heading 2</h2>
         <h3>This is heading 3</h3>
+
 - Search engines use the headings to index the structure and content of your web pages.
 
 - Horizontal Rules:
