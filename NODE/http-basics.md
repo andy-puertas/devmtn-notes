@@ -22,8 +22,7 @@
 - For example… `mailto:user@test101.com`  `telnet://www.nowhere123.com/` `ftp://www.ftp.org/docs/test/txt`
 - Whenever you enter a URL in the address box of the browser, the browser translates the URL into a request message according to specified protocol
 
-### **H**yper**T**ext **T**ransfer **P**rotocol
-## otherwise known as HTTP Requests:
+## **H**yper**T**ext **T**ransfer **P**rotocol - otherwise known as HTTP Requests:
 - This is communication between a computer and a server, a request is sent to get the HTML and then everything else attached to it.
 - HTTP Requests are stateless -- they don't remember anything 
 - `From:` client, `to:` server
