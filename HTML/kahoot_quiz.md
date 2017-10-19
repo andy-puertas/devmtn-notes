@@ -17,17 +17,17 @@ only what they need
 ### What doctype is correct for HTML5? 
 <details>
 <summary> <code> answer </code> </summary>
-```
-<!DOCTYPE html>
-```
+
+`<!DOCTYPE html>`
+
 </details>
 
 ### How can you make a bulleted list? 
 <details>
 <summary> <code> answer </code> </summary>
-```
-<ul>
-```
+    
+    `<ul>`
+
 </details>
 
 ### What is the correct HTML for inserting an image? 
