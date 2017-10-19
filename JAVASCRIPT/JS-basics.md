@@ -40,15 +40,15 @@ Getting Started with JavaScript
     - single `=` indicates assignment
     - `==` or `===` indicates comparison (as seen in boolean values)
 
-## Arrays 
+### Arrays 
 - Primary structure for storing multiple items of information
 - Index starts at 0 for the first var (instead of 1) - "zero based index"
-- var arr = ['Proper', 'syntax', 'is', 'brackets', 'and', 'commas'];
-          index: 0        1       2       3           4       5
+- `var arr = ['Proper', 'syntax', 'is', 'brackets', 'and', 'commas'];`
+          index: `0`        `1`       `2`       `3`           `4`       `5`
 - Manipulating arrays:
     + Accessing values: 
-        arr[0]; <- returns "Proper"
-        arr[4]; <- returns "and"
+        - `arr[0];` <- returns "Proper"
+        - `arr[4];` <- returns "and"
     + Adding values:
         arr.push(this); <- adds ['this'] to the end of the array
         arr.unshift(this); <- adds ['this'] to the beginning of the array
