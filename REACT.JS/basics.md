@@ -54,4 +54,3 @@
 - Always set an initial state in the constructor function
 - Update state later using `this.setState()` as a function
 - State is considered an immutable object in React
-

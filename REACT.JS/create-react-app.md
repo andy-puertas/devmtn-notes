@@ -1,4 +1,4 @@
-# Steps surrounding `create-react-app`
+### Steps surrounding `create-react-app`
 
 1. `cd` into your outer working directory (where do you want the folder containing this project to exist?)
 
