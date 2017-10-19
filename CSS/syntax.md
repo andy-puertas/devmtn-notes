@@ -10,7 +10,7 @@
 
 ## Display
 - FlexBox: used alternatively to CSS position, clear, float, etc. elements 
-    + (Handy FlexBox Guide)[https://css-tricks.com/snippets/css/a-guide-to-flexbox/]
+    + [Handy FlexBox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
     + solves a lot of varying layout issues
     + initiated with display: flex; under a group element defined 
         - this tells your page that each element within a group is going to share the same ratio of space 
