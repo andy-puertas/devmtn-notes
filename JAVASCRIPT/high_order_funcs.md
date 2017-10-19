@@ -1,40 +1,46 @@
 # Higher Order Functions in JavaScript
-
-- A higher order function is a like a mastermind with smaller functions that act as minions or workers.
+- A higher order function is a like an overlord that controls smaller functions which act as minions.
 - A higher order function gets and uses other functions to perform parts.
 - Each take in three parameters: item, index, array
 
 ## forEach
 - Loops over all items in an array
-    array.forEach(...)
+    - `array.forEach(...)`
 
 - Uses a callback function
-    array.forEach(function(){})
-    array.forEach(()=>{})
+    - `array.forEach( function(){ } )`
+    - `array.forEach( ()=>{ } )`
 
 - Gives the callback function each item 1 at a time
-    array.forEach( function( item ) { } )
-    array.forEach( ( item ) => { } )
+    - `array.forEach( function( item ) { } )`
+    - `array.forEach( ( item ) => { } )`
 
 - Also gives the index, and the original array
-    array.forEach( function( item, index, arr) { } )
-    array.forEach( ( item, index, arr) => { } )
+    - `array.forEach( function( item, index, arr) { } )`
+    - `array.forEach( ( item, index, arr) => { } )`
 
 - Must use the arr parameter to change the original array
-    array.forEach( function( item, index, arr) { arr[index] = 7 } )
-    array.forEach( ( item, index, arr) => arr[index] = 7 )
+    - `array.forEach( function( item, index, arr) { arr[index] = 7 } )`
+    - `array.forEach( ( item, index, arr) => arr[index] = 7 )`
 
 ## map
 - Loops through an array and spits out a new array of equal length
-- Works just like a forEach function
-    array.map( function( item, index, arr) { } )
-    array.map( ( item, index, arr) => { } )
+- Works just like a `forEach` function
+    - array.map( function( item, index, arr) { } )
+    - array.map( ( item, index, arr) => { } )
 
 - The callback is used to change/alter/re-map the item
-    array.map( function(item){ return item + ", eh"})
-    array.map( function(item){ return item + 27})
-    array.map( function(item){ if(item.isDemoted){ item.isAdmin = false; } if(item.isDavidBlaine){ item.lovesCheezits = true; } 
-    return item; })
+    - array.map( function(item){ return item + ", eh"})
+    - array.map( function(item){ return item + 27})
+    - 
+            array.map( function(item){ 
+                if(item.isDemoted){ 
+                    item.isAdmin = false; 
+                } else 
+                    if(item.isDavidBlaine){ 
+                        item.lovesCheezits = true;
+                    } return item; 
+            })
  
 - Anything returned by the callback function is added to a new array
     var array = [1, 2, 4, 10]
