@@ -75,12 +75,12 @@
 - The key is knowing which element defines what within the HTML document. 
 
     - `<!DOCTYPE html>` : declares the format of whole document // what language are we speaking in?
-    - `<html>`          : defines the whole document // has a start and end tag 
-    -     `<body>`      : defines the document body // has a start and end tag 
-    -         `<h1>My First Heading</h1>`  : defines a heading // has a start and end tag 
-    -         `<p>My first paragraph.</p>` : defines a paragraph // has a start and end tag 
-    -     `</body>` 
-    - `</html> `
+    - => `<html>` : defines the whole document // has a start and end tag 
+    - => => `<body>` : defines the document body // has a start and end tag 
+    - => => => `<h1> My First Heading </h1>`  : defines a heading // has a start and end tag 
+    - => => => `<p> My first paragraph. </p>` : defines a paragraph // has a start and end tag 
+    - => => `</body>` 
+    - => `</html> `
 
 
 ## Attributes 
