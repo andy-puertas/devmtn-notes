@@ -55,7 +55,7 @@ Getting Started with JavaScript
 - Removing values:
     - `arr.pop;` <- removes last item `['commas']` from the end of the array
     - `arr.shift;` <- removes first item `['Proper']` from the beginning of the array
-* See [high_order_funcs.md](http://github.com/kale-stew/devmtn-notes/JAVASCRIPT/high_order_funcs.md) and [reference_methods.md](http://github.com/kale-stew/devmtn-notes/JAVASCRIPT/reference_methods.md) for additional array ref methods
+* See [high_order_funcs.md](https://github.com/kale-stew/devmtn-notes/blob/master/JAVASCRIPT/high_order_funcs.md) and [reference_methods.md](https://github.com/kale-stew/devmtn-notes/blob/master/JAVASCRIPT/reference_methods.md) for additional array ref methods
 - When accessing arrays, you often need to create a loop to "go through" / loop the array
     - For example...
 
