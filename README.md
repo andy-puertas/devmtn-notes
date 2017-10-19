@@ -4,4 +4,3 @@ devmountain wpx1
 ## + other handy links, videos, notes
 
 `thanks` `for` `checking` `my` `notes` `out`
-
