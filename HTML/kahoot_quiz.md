@@ -62,8 +62,7 @@ only what they need
 </details>
 
 
-### Block elements are normally displayed without starting a new line: 
-### TRUE or FALSE? 
+### Block elements are normally displayed without starting a new line: T or F?
 
 <details>
 <summary> <code> answer </code> </summary>
@@ -103,8 +102,8 @@ only what they need
 <details>
 <summary> <code> answer </code> </summary>
 
-`<img>`
-+ the “tag” refers to the beginning of the entire line of command in HTML, not attributes 
+- `<img>`
+- the “tag” refers to the beginning of the entire line of command in HTML, not attributes 
     - like `src=` or `style=` or `class=` designations within the tag
 
 </details>
@@ -129,6 +128,7 @@ only what they need
 <summary> <code> answer </code> </summary>
   
 2. `<h6>`   
+
 </details>
 
 
@@ -163,13 +163,12 @@ only what they need
 </details>
 
 
-### Inline elements are normally displayed without starting a new line:
-### TRUE or FALSE? 
+### Inline elements are normally displayed without starting a new line: T or F?
 
 <details>
 <summary> <code> answer </code> </summary>
 
-`TRUE`
+*TRUE*
 
 </details>
 
@@ -198,19 +197,18 @@ only what they need
 </details>
 
 
-### In HTML documents, the tags can be written in both uppercase or lowercase
-### TRUE or FALSE? 
+### In HTML documents, the tags can be written in both uppercase or lowercase: T or F?
 
 <details>
 <summary> <code> answer </code> </summary>
 
-- `TRUE`
+- *TRUE*
 - HTML is case insensitive. It has no preference. 
 
 </details>
 
 
-### How can you make a numbered list?
+### How can you create a numbered list?
 1. `<ol>`          
 2. `<ul>`
 3. `<list>`        
