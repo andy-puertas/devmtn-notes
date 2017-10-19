@@ -26,8 +26,8 @@
 ## map
 - Loops through an array and spits out a new array of equal length
 - Works just like a `forEach` function
-    - array.map( function( item, index, arr) { } )
-    - array.map( ( item, index, arr) => { } )
+    - `array.map( function( item, index, arr) { } )`
+    - `array.map( ( item, index, arr) => { } )`
 
 - The callback is used to change/alter/re-map the item
     - `array.map( function(item){ return item + ", eh"})`
@@ -43,6 +43,7 @@
             })
  
 - Anything returned by the callback function is added to a new array
+
         var array = [1, 2, 4, 10]
         var mapResult = array.map( function( item ) { return item + 10} )
         var mapResult = array.map( ( item ) => item + 10 )
@@ -61,6 +62,7 @@
     - `array.filter( function(item){ return item.isAdmin } ) array.filter( (item) => item.isAdmin )`
 
 - Return truthy = included. return falsy = excluded.
+
         var array = [1, 2, 4, 10, 11]
         var filterResult = array.filter( function( item ) { return item % 2 === 0 } )
         var filterResult = array.filter( ( item ) => item % 2 === 0 )
@@ -84,6 +86,7 @@
     - `array.reduce( ( prev, item, index, arr) => prev + next, 0 )`
 
 - Reduce is great for running totals
+
         var array = [1, 2, 4, 10, 11]
         var reduceResult = array.reduce( function( prev, item ) { return prev + item }, 0 )
         var reduceResult = array.reduce( ( prev, item ) => prev + item, 0 )
