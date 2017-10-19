@@ -1,9 +1,6 @@
-# DEVMTN NOTES
+devmountain wpx1 
+=================
+## cohort notes, mini projects, afternoon projects 
+## other handy links, videos, notes
 
-## by Onkar and Kylie
-
-This contains the mini projects, afternoon projects, and compiled notes from the two of us + DevMountain.difference-engine
-
-For any modifications or trouble, please contact us on Slack (or wherever...)
-
-Happy hacking! 
+`thanks` `for` `checking` `my` `notes` `out`
