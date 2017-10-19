@@ -11,3 +11,5 @@
 - `directive`: An HTML attribute or tag that gives behavior to the element
 - `CDN`: C. ontent D. elivery N. etwork
     - how files are commonly distributed for Angular apps (and others that are not bundled)
+- `module`: a reusable code section that is used elsewhere in the app
+    - similarly to React
