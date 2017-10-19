@@ -1,37 +1,42 @@
 ## ROUND ONE
 
 ### Inline elements default width is... 
-    <details>
-    <summary> <code> answer </code> </summary>
-    only what they need
-    </details>
+<details>
+<summary> <code> answer </code> </summary>
+only what they need
+</details>
 
 ### What is the correct HTML element for inserting a line break? 
-    <details>
-    <summary> <code> answer </code> </summary>
-    ```
-    <br>
-    ```
-    </details>
+<details>
+<summary> <code> answer </code> </summary>
+```
+<br>
+```
+</details>
 
 ### What doctype is correct for HTML5? 
-    <details>
-    <summary> <code> answer </code> </summary>
-    ```
-    <!DOCTYPE html>
-    ```
-    </details>
+<details>
+<summary> <code> answer </code> </summary>
+```
+<!DOCTYPE html>
+```
+</details>
 
 ### How can you make a bulleted list? 
-    <details>
-    <summary> <code> answer </code> </summary>
-    ```
-    <ul>
-    ```
-    </details>
+<details>
+<summary> <code> answer </code> </summary>
+```
+<ul>
+```
+</details>
 
-- What is the correct HTML for inserting an image? 
-    - `img src = “image.jpg" alt = “MyImage"`
+### What is the correct HTML for inserting an image? 
+<details>
+<summary> <code> answer </code> </summary>
+```
+img src = “image.jpg" alt = “MyImage"
+```
+</details>
 
 - What is the correct HTML for adding a background color? 
     - `body style = “background-color: yellow;”`
