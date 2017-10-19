@@ -1,6 +1,7 @@
 # ROUND ONE
 
-Inline elements default width is... 
+### Inline elements default width is... 
+
 <details>
 <summary> <code> answer </code> </summary>
 
@@ -8,7 +9,9 @@ only what they need
 
 </details>
 
-What is the correct HTML element for inserting a line break? 
+
+### What is the correct HTML element for inserting a line break? 
+
 <details>
 <summary> <code> answer </code> </summary>
 
@@ -16,7 +19,9 @@ What is the correct HTML element for inserting a line break?
 
 </details>
 
-What doctype is correct for HTML5? 
+
+### What doctype is correct for HTML5? 
+
 <details>
 <summary> <code> answer </code> </summary>
 
@@ -24,7 +29,9 @@ What doctype is correct for HTML5?
 
 </details>
 
-How can you make a bulleted list? 
+
+### How can you make a bulleted list? 
+
 <details>
 <summary> <code> answer </code> </summary>
     
@@ -32,7 +39,9 @@ How can you make a bulleted list?
 
 </details>
 
-What is the correct HTML for inserting an image? 
+
+### What is the correct HTML for inserting an image? 
+
 <details>
 <summary> <code> answer </code> </summary>
 
@@ -40,7 +49,9 @@ What is the correct HTML for inserting an image?
 
 </details>
 
-What is the correct HTML for adding a background color? 
+
+### What is the correct HTML for adding a background color? 
+
 <details>
 <summary> <code> answer </code> </summary>
 
@@ -50,7 +61,8 @@ inline styling is the only option
 
 </details>
 
-Block elements are normally displayed without starting a new line: TRUE or FALSE? 
+
+### Block elements are normally displayed without starting a new line: TRUE or FALSE? 
 <details>
 <summary> <code> answer </code> </summary>
 
