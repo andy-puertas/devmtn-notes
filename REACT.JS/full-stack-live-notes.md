@@ -1,7 +1,6 @@
 ## FULLLLLLLLL
 ## STTTTAAAACCCCKKKKK
 ## SSIIIIIMMMMUUUULLLAAAATTTIIOOOOONNNN
-## Refer to : full-stack-review for implemented notes 
 
 1. in `server` > `server.js`
     - a: dependencies!
@@ -103,14 +102,14 @@
         - changes to `package.json `or `.env` require a quit and restart of npm 
 
 7. hooking up to redux
-    - src > ducks > users.js
+    - `src` > `ducks` > `users.js`
         - a: default params! set up initial state obj
-        - b: bring it in first parameter (state=initialState, aciton)
+        - b: bring it in first parameter `(state=initialState, aciton)`
 
-8. src > store.js
-    - import { createStore } from 'redux';
-        - import reducer from './ducks/users';
-        - export default createStore(reducer);
+8. `src` > `store.js`
+    - `import { createStore } from 'redux';`
+        - `import reducer from './ducks/users';`
+        - `export default createStore(reducer);`
 
 9. create a logout endpoint
     - `logOut()` method is pre-loaded
