@@ -1,6 +1,3 @@
-Day One in Angular
-==================
-
 ## Some background:
 - [jQuery Docs](jQuery.com)
 - putting jQuery into your docs:

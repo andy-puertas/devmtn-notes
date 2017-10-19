@@ -1,5 +1,3 @@
-# SEPT 18
-
 ## What is a media query?
 - Initiated with the `@media` call
 - Parameter can be conditions in which to apply the new style 
