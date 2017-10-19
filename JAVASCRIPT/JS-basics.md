@@ -1,33 +1,38 @@
 JS BASICS 
 ===========
-- How does the web work?
-    HTTP:// = Hyper Text Transfer Protocol
-    —> REST: Most popular HTTP format
-    —> JSON: Preferred format for sending data and forth (JavaScript Object Notation)
+## How does the web work?
+    - `HTTP://` = Hyper Text Transfer Protocol
+    - => REST: Most popular HTTP format
+    - => JSON: Preferred format for sending data and forth (JavaScript Object Notation)
 
 ## Script Tags 
-- Are used to run your code file on a web page. 
+- Used to run your code file on a web page. 
 - Done either on the same server as your HTML or on a host site/outside server.
-        syntax: <script> src = “_____.js” </script>    
+    - syntax: `<script> src = “_____.js” </script>`    
 
 ## Variables
 - Our primary method for item storage 
-        var data;           <- variable declaration
-        data = 7;           <- assigning that variable a value
-        var data = 7;       <- assignment in its simplest form
+
+        var data;           <= variable declaration
+        data = 7;           <= assigning that variable a value
+        var data = 7;       <= assignment in its simplest form
+
 - Can be assigned any data type
 
 ## Data Types
 - Boolean
 - Null 
-    + null is not undefined
+    + `null` is _not_ undefined
 - Undefined 
     + a way to signify there is no value assigned yet, but there could be later
         - for example, if a value is not yet available as in a survey question not yet answered, data not yet received or input
-        - as seen in: var myVar; or: myVar = undefined;
+        - as seen in: `var myVar;` or: `myVar = undefined;`
 - String
-    + as seen in: var myString = “7”;
-               var myInt = parseInt(myString, 10);
+    + as seen in: 
+    
+            var myString = “7”;
+            var myInt = parseInt(myString, 10);
+        
     + would return the numerical value 7 instead of the value-less “7"
 - Number // only one type of number in JavaScript
 - {Object};
