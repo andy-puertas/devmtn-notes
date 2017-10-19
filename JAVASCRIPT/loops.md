@@ -10,14 +10,14 @@
         - `change`: what do you want done when your loop finishes?
             - this is often designated as `i++` or `i--` for incremental/decremental loops
 
-                var myArr = [2, 3, 4, 5, 6];
-                var total = 0;
-                for (var i=0; i<myArr.length; i++) {
-                    total += myArr[i];
-                };
+                    var myArr = [2, 3, 4, 5, 6];
+                    var total = 0;
+                    for (var i=0; i<myArr.length; i++) {
+                        total += myArr[i];
+                    };
 
-1. Declare and initialize your variables
-2. Use the key word `for() {}`
+    1. Declare and initialize your variables
+    2. Use the key word `for() {}`
 
 - `for/in` loops - loop through the properties of an object
     - do not use to loop through arrays where index order is important; use `for` instead
