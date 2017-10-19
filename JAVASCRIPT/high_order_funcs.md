@@ -53,42 +53,42 @@
 - Loops through an array and returns an array with only values we deem worthy 
 - Expects a true or false return
 - Works just like a forEach function
-    array.filter( function( item, index, arr) { } )
-    array.filter( ( item, index, arr) => { } )
+    - `array.filter( function( item, index, arr) { } )`
+    - `array.filter( ( item, index, arr) => { } )`
 
 - The callback is used to check if the item goes into the new array
-    array.filter( function(item){ return item > 21}) array.filter( (item) => item > 21 )
-    array.filter( function(item){ return item.isAdmin } ) array.filter( (item) => item.isAdmin )
+    - `array.filter( function(item){ return item > 21}) array.filter( (item) => item > 21 )`
+    - `array.filter( function(item){ return item.isAdmin } ) array.filter( (item) => item.isAdmin )`
 
 - Return truthy = included. return falsy = excluded.
-    var array = [1, 2, 4, 10, 11]
-    var filterResult = array.filter( function( item ) { return item % 2 === 0 } )
-    var filterResult = array.filter( ( item ) => item % 2 === 0 )
-    filterResult === [ 2, 4, 10]
-    array === [1, 2, 4, 10, 11]
+        var array = [1, 2, 4, 10, 11]
+        var filterResult = array.filter( function( item ) { return item % 2 === 0 } )
+        var filterResult = array.filter( ( item ) => item % 2 === 0 )
+        filterResult === [ 2, 4, 10]
+        array === [1, 2, 4, 10, 11]
 
 ## reduce
-- Works similar to a forEach function
+- Works similar to a `forEach` function
 - Reduces an array down to a sum
 - Only higher order function that does not return an array
 - Adds a new prev parameter in the front
-    array.reduce( function( prev, item, index, arr) { } )
-    array.reduce( ( prev, item, index, arr) => { } )
+    - `array.reduce( function( prev, item, index, arr) { } )`
+    - `array.reduce( ( prev, item, index, arr) => { } )`
 
 - Adds a starting value after the function
-    array.reduce( function( prev, item, index, arr) { }, startingValue )
-    array.reduce( ( prev, item, index, arr) => { }, startingValue )
+    - `array.reduce( function( prev, item, index, arr) { }, startingValue )`
+    - `array.reduce( ( prev, item, index, arr) => { }, startingValue )`
 
 - Prev is whatever value the previous invocation returned
-    array.reduce( function( prev, item, index, arr) { return prev + next }, 0 )
-    array.reduce( ( prev, item, index, arr) => prev + next, 0 )
+    - `array.reduce( function( prev, item, index, arr) { return prev + next }, 0 )`
+    - `array.reduce( ( prev, item, index, arr) => prev + next, 0 )`
 
 - Reduce is great for running totals
-    var array = [1, 2, 4, 10, 11]
-    var reduceResult = array.reduce( function( prev, item ) { return prev + item }, 0 )
-    var reduceResult = array.reduce( ( prev, item ) => prev + item, 0 )
-    reduceResult === 28
-    array === [1, 2, 4, 10, 11]
+        var array = [1, 2, 4, 10, 11]
+        var reduceResult = array.reduce( function( prev, item ) { return prev + item }, 0 )
+        var reduceResult = array.reduce( ( prev, item ) => prev + item, 0 )
+        reduceResult === 28
+        array === [1, 2, 4, 10, 11]
 
 ## sort
 - Sorts an array
