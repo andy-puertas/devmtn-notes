@@ -1,7 +1,4 @@
-
-####################
-### HIGHER ORDER ###
-####################
+# Higher Order Functions in JavaScript
 
 - A higher order function is a like a mastermind with smaller functions that act as minions or workers.
 - A higher order function gets and uses other functions to perform parts.
