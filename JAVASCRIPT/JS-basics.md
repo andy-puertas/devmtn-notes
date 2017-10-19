@@ -50,19 +50,20 @@ Getting Started with JavaScript
         - `arr[0];` <- returns "Proper"
         - `arr[4];` <- returns "and"
     + Adding values:
-        arr.push(this); <- adds ['this'] to the end of the array
-        arr.unshift(this); <- adds ['this'] to the beginning of the array
+        - `arr.push(this);` <- adds `['this']` to the end of the array
+        - `arr.unshift(this);` <- adds `['this']` to the beginning of the array
     + Removing values:
-        arr.pop; <- removes last item ['commas'] from the end of the array
-        arr.shift; <- removes first item ['Proper'] from the beginning of the array
+        - `arr.pop;` <- removes last item `['commas']` from the end of the array
+        - `arr.shift;` <- removes first item `['Proper']` from the beginning of the array
     * See high_order_funcs.md and reference_methods.md for additional array ref methods
 - When accessing arrays, you often need to create a loop to "go through" / loop the array
-  For example...
-    var threeHellos = [];
-    for (var i=0; i<3; i++) {
-        threeHellos.push('hello');
-    };
-    threeHellos; <- has become ['hello', 'hello', 'hello']
+    - For example...
+
+            var threeHellos = [];
+            for (var i=0; i<3; i++) {
+                threeHellos.push('hello');
+            };
+            threeHellos; <- has become ['hello', 'hello', 'hello']
 
 # Functions
 - Used to save and reuse/repeat code, by using Parameters 
@@ -81,79 +82,86 @@ var sayName = function() { } | | function sayName() { }
 ## … call … invoke … run!
 + When you declare a function, you announce its (parameters).
 + When you call a function, you specify (arguments). 
-+ Indexes matter in (parameters). ValueType must align. 
++ Indexes matter in (parameters). Value type must align. 
 + Function declaration is the safer pattern to start with. Less unknown bugs occur in code when using this method. 
 + When the function is returned, the function is exited and nothing else within the original function is executed. 
 + Basic functionality:
-    C reate —   Post 
-    R ead —     Get
-    U pdate —   Put
-    D elete —   Delete
+    - C reate —   Post 
+    - R ead —     Get
+    - U pdate —   Put
+    - D elete —   Delete
 
 ## Returning Functions from a Function…
-    function shoeMachineMaker(color) {
-        return function(){
-            return color + ‘ ‘ + ‘shoe’;
-        }
-    };
 
-    greenShoeMaker = shoeMachineMaker(‘green’); // returns the string ‘green shoe’ 
+        function shoeMachineMaker(color) {
+            return function(){
+                return color + ‘ ‘ + ‘shoe’;
+            }
+        };
+
+        greenShoeMaker = shoeMachineMaker(‘green’); // returns the string ‘green shoe’ 
 
 ## Scope
 - The contact in which values and expressions are “visible.” Global scope is “visible” to all of your code.
-- There *is* a hierarchy. Child scope can have access to parent scopes, but not vice versa. 
-    (We’re in here but they’re out there. We know what in here *and* out there looks like. They only know what out there looks like.)
+- There _is_ a hierarchy. Child scope can have access to parent scopes, but not vice versa. 
+    - (We’re in here but they’re out there. We know what in here _and_ out there looks like. They only know what out there looks like.)
     + Rules of scope: “Look up, never down”
     + Lexical Scope:
         - Local variables take priority within a function. 
         - Parent variable vs. child variable all over again
-            var lunch = ‘pizza’;
-            function myLunch() {
-                var lunch = ‘filet mignon’;
-                function babyLunch() {
-                return lunch;
-                }
-            };
-            babyLunch; // returns ‘filet mignon’
-    + Using “Let”:
-        - Only valid variable assignment method when used within a parent function / aka: must be inside of curly braces to be valid. 
+
+                var lunch = ‘pizza’;
+                function myLunch() {
+                    var lunch = ‘filet mignon’;
+                    function babyLunch() {
+                    return lunch;
+                    }
+                };
+                babyLunch; // returns ‘filet mignon’
+
+    + Using `let`:
+        - Only valid variable assignment method when used within a parent function
+            - aka: must be inside of { curly braces } to be valid. 
         - Does not apply to variable callbacks beyond its own lexical scope. 
-        - Vastly more temporary method for assigning value than var ___ = ___;
-            if (true) {
-                let num = 12;
-            };
-            num = undefined;
-            for (let i=0; i<11; i++) {
-                // i is only defined for code inside of { this loop } 
-            };          
+        - Vastly more temporary method for assigning value than `var ___ = ___;`
+            
+                if (true) {
+                    let num = 12;
+                };
+                num = undefined;
+                for (let i=0; i<11; i++) {
+                    // i is only defined for code inside of { this loop } 
+                };          
 
 
 ## Ternary Operator  
-- Triggered by the '?'
-- {CONDITIONS} ? {VALID STATEMENT} : {INVALID STATEMENT};
+- Triggered by the `?`
+- `{CONDITIONS} ? {VALID STATEMENT} : {INVALID STATEMENT};`
+- For example, using: `var str = “Hello”;`
+    - Before use of ternary:  
 
-For example…
-    var str = “Hello”;
-        BEFORE:                         AFTER:
-        if (str.length>3) {             var newStr = str.length>3 ? 88:99;
-            newStr = 88;
-        } else {
-            newStr = 99;
-        }
+            if (str.length>3) {             
+                newStr = 88;
+            } else {
+                newStr = 99;
+            }
 
+    - After use of ternary: 
+
+            var newStr = str.length>3 ? 88:99;
 
 # Destructuring
 - Used to change an unnatttractive object formation to a more readable line of code
-`var name = employee.first_name;`
-    … becomes … 
+- `var name = employee.first_name;`
+- … becomes … 
 ```
 var {first_name} = employee;
 let {first_name} = employee;
 ```
                                                             
 - It is possible to use destructuring to refer to a value within parameters of another function 
-    + Used often as shorthand in React
-    function aPerson({name, friends, race}, greeting, age){ } 
+    - Used often as shorthand in React
+    - `function aPerson({name, friends, race}, greeting, age){ } `
 
 ## indexOf
 - Gets the index of a given item
