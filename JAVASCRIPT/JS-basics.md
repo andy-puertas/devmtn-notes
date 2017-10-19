@@ -152,13 +152,12 @@ var sayName = function() { } | | function sayName() { }
 
 # Destructuring
 - Used to change an unnatttractive object formation to a more readable line of code
-- `var name = employee.first_name;`
-- … becomes … 
+- For example, `var name = employee.first_name;` becomes … 
 ```
 var {first_name} = employee;
 let {first_name} = employee;
 ```
-                                                            
+                                                     
 - It is possible to use destructuring to refer to a value within parameters of another function 
     - Used often as shorthand in React
     - `function aPerson({name, friends, race}, greeting, age){ } `
