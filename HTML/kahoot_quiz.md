@@ -60,16 +60,15 @@ FALSE
 </details>
 
 Which of the following does not need a pair tag?
+- `<i> </i>`   
+- `<img>` 
+- `<u>`
+- `<p> </p>`
+
 <details>
 <summary> <code> answer </code> </summary>
 
-- `<i> </i>`   
-
 - `<img>` 
-
-- `<u>` <— not a legitimate tag
-
-- `<p> </p>`
 
 </details>
 
@@ -82,17 +81,35 @@ the full width of the page.
 
 </details>
 
-- A webpage displays a picture. What tag was used to display that picture? `<img>`
-    + the “tag” refers to the beginning of the entire line of command in HTML, not attributes 
-        - like `src=` or `style=` or `class=` designations within the tag
+A webpage displays a picture. What tag was used to display that picture? 
+<details>
+<summary> <code> answer </code> </summary>
 
-- What should be the first tag in any HTML document? `<html>`
+`<img>`
++ the “tag” refers to the beginning of the entire line of command in HTML, not attributes 
+    - like `src=` or `style=` or `class=` designations within the tag
 
-- Choose the correct HTML tag for the smallest size heading?  
-    - `<head>`   
-    - `<h6>`   
-    - `<heading>`
-    - `<h1>`
+</details>
+
+What should be the first tag in any HTML document? 
+<details>
+<summary> <code> answer </code> </summary>
+
+`<html>`
+
+</details>
+
+Choose the correct HTML tag for the smallest size heading:
+- `<head>`   
+- `<h6>`   
+- `<heading>`
+- `<h1>`
+
+<details>
+<summary> <code> answer </code> </summary>
+  
+- `<h6>`   
+</details>
 
 - Which HTML attribute specifies an alternate text for an image, if image cannot be displayed? `<alt>`
 
