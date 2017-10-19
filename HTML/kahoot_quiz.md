@@ -55,45 +55,51 @@ only what they need
 <details>
 <summary> <code> answer </code> </summary>
 
-`body style = “background-color: yellow;”`
-`background-color` is not a CSS style reference
-inline styling is the only option
+- `body style = “background-color: yellow;”`
+- `background-color` is not a CSS style reference
+- inline styling is the only option
 
 </details>
 
 
-### Block elements are normally displayed without starting a new line: TRUE or FALSE? 
-<details>
-<summary> <code> answer </code> </summary>
-
-FALSE
-+ forces a new line by occupying the entire width of the block above 
-
-</details>
-
-Which of the following does not need a pair tag?
-- `<i> </i>`   
-- `<img>` 
-- `<u>`
-- `<p> </p>`
+### Block elements are normally displayed without starting a new line: 
+### TRUE or FALSE? 
 
 <details>
 <summary> <code> answer </code> </summary>
 
-- `<img>` 
+- *FALSE*
+- forces a new line by occupying the entire width of the block above 
 
 </details>
 
-Block elements default width is... 
+
+### Which of the following does not need a pair tag?
+1. `<i> </i>`   
+2. `<img>` 
+3. `<u>`
+4. `<p> </p>`
+
 <details>
 <summary> <code> answer </code> </summary>
 
-the full width of the page. 
-+ inline elements only take what they need while block elements take the entire width
+2. `<img>` 
 
 </details>
 
-A webpage displays a picture. What tag was used to display that picture? 
+
+### Block elements default width is... 
+
+<details>
+<summary> <code> answer </code> </summary>
+
+- the full width of the page. 
+- inline elements only take what they need while block elements take the entire width
+
+</details>
+
+
+### A webpage displays a picture. What tag was used to display that picture? 
 <details>
 <summary> <code> answer </code> </summary>
 
@@ -103,7 +109,8 @@ A webpage displays a picture. What tag was used to display that picture?
 
 </details>
 
-What should be the first tag in any HTML document? 
+### What should be the first tag in any HTML document? 
+
 <details>
 <summary> <code> answer </code> </summary>
 
@@ -111,49 +118,124 @@ What should be the first tag in any HTML document?
 
 </details>
 
-Choose the correct HTML tag for the smallest size heading:
-- `<head>`   
-- `<h6>`   
-- `<heading>`
-- `<h1>`
+
+### Choose the correct HTML tag for the smallest size heading:
+1. `<head>`   
+2. `<h6>`   
+3. `<heading>`
+4. `<h1>`
 
 <details>
 <summary> <code> answer </code> </summary>
   
-- `<h6>`   
+2. `<h6>`   
 </details>
 
-- Which HTML attribute specifies an alternate text for an image, if image cannot be displayed? `<alt>`
 
-- Span is a(n) `<inline element>`.
+### Which HTML attribute specifies an alternate text for an image, if image cannot be displayed? 
 
-- Which HTML element defines the title of a document? `<title>`
-    + where does it go? Inside of the `<head>` 
+<details>
+<summary> <code> answer </code> </summary>
 
-- Inline elements are normally displayed without starting a new line: `TRUE`
+`<alt>`
 
-- Which is the correct HTML element for the largest heading?
-    - `<h6>`      
-    - `<head>`  
-    - `<h1>`
-    - `<heading>` 
+</details>
 
-- The part of an HTML element that modifies how the base is rendered are the `attributes`. 
 
-- In HTML documents, the tags can be written in both uppercase or lowercase `TRUE`.
-    + HTML is case insensitive. It has no preference. 
+### Span is a(n)... 
 
-- How can you make a numbered list?
-    - `<ol>`          
-    - `<ul>`
-    - `<list>`        
-    - `<dl>`
+<details>
+<summary> <code> answer </code> </summary>
 
-- Which attribute is used to name an element uniquely?
-    - `class`      
-    - `dot`
-    - `id` <-- this one        
-    - all of the above
+`<inline element>`
+
+</details>
+
+
+### Which HTML element defines the title of a document? Where does it go? 
+
+<details>
+<summary> <code> answer </code> </summary>
+
+- `<title>`
+- inside of the `<head>` 
+
+</details>
+
+
+### Inline elements are normally displayed without starting a new line:
+### TRUE or FALSE? 
+
+<details>
+<summary> <code> answer </code> </summary>
+
+`TRUE`
+
+</details>
+
+
+### Which is the correct HTML element for the largest heading?
+1. `<h6>`      
+2. `<head>`  
+3. `<h1>`
+4. `<heading>` 
+
+<details>
+<summary> <code> answer </code> </summary>
+
+3. `<h1>`
+
+</details>
+
+
+### The part of an HTML element that modifies how the base is rendered are the... 
+
+<details>
+<summary> <code> answer </code> </summary>
+
+`attributes`. 
+
+</details>
+
+
+### In HTML documents, the tags can be written in both uppercase or lowercase
+### TRUE or FALSE? 
+
+<details>
+<summary> <code> answer </code> </summary>
+
+- `TRUE`
+- HTML is case insensitive. It has no preference. 
+
+</details>
+
+
+### How can you make a numbered list?
+1. `<ol>`          
+2. `<ul>`
+3. `<list>`        
+4. `<dl>`
+
+<details>
+<summary> <code> answer </code> </summary>
+
+1. `<ol>` 
+
+</details>
+
+
+### Which attribute is used to name an element uniquely?
+1. `class`      
+2. `dot`
+3. `id`       
+4. all of the above
+
+<details>
+<summary> <code> answer </code> </summary>
+
+3. `id` 
+
+</details> 
 
 
 ## ROUND TWO
