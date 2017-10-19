@@ -63,60 +63,60 @@ Array References
 - `charAt()` — The opposite of indexOf; Returns the character at the specified index 
 - `concat()` — Joins two or more arrays and returns a copy of the joined arrays
 - `endsWith()` — Checks whether a string ends with specified string/characters
-- slice() — Extracts a part of a string and returns a new string
-- replace() — Searches a string for a specified value, or expression, and returns a new string where the specified values are replaced
-- includes() — Checks whether a string contains specified string/characters 
-- filter() — Creates a new array with every element in an array that pass a test
-- find() — Returns the value of the first element in an array that pass a test
-- fill() — Fill the elements in an array with a static value
-- every() — Checks if every element in an array pass a test
-- findIndex() — Returns the index of the first element in an array that pass a test 
-- forEach() — Calls a function for each array element 
-- isArray() — Checks whether an object is an array
-- join() — Joins all elements of an array into a string
-- lastIndexOf() — Returns the position of the last found occurrence of a specified value within a string 
-- map() — Creates a new array with the result of calling a function for each array element
-- pop() — Takes the item off the end of an array and returns it to you
-- push() — The opposite of pop; Adds an item to the end of an array
-- reduce() — Reduce the values of an array to a single value (going left-to-right)
-- reduceRight() — Reduce the values of an array to a single value (going right-to-left)
-- reverse() — Reverses the order of the elements in an array
-- shift() — Takes the item off the front of an array and returns it to you
-- slice() — The opposite of splice; selects parts of an array, and returns the new array
-- some() — Checks if any of the elements in an array pass a test
-- sort() — Sorts the elements of an array
-- splice() — Adds/Removes elements from an array
-- toString() — Converts an array to a string, and returns the result
-- unshift() — The opposite of shift; Adds new elements to the beginning of an array, and returns the new length
-- valueOf() — Returns the primitive value of an array
+- `slice()` — Extracts a part of a string and returns a new string
+- `replace()` — Searches a string for a specified value, or expression, and returns a new string where the specified values are replaced
+- `includes()` — Checks whether a string contains specified string/characters 
+- `filter()` — Creates a new array with every element in an array that pass a test
+- `find()` — Returns the value of the first element in an array that pass a test
+- `fill()` — Fill the elements in an array with a static value
+- `every()` — Checks if every element in an array pass a test
+- `findIndex()` — Returns the index of the first element in an array that pass a test 
+- `forEach()` — Calls a function for each array element 
+- `isArray()` — Checks whether an object is an array
+- `join()` — Joins all elements of an array into a string
+- `lastIndexOf()` — Returns the position of the last found occurrence of a specified value within a string 
+- `map()` — Creates a new array with the result of calling a function for each array element
+- `pop()` — Takes the item off the end of an array and returns it to you
+- `push()` — The opposite of pop; Adds an item to the end of an array
+- `reduce()` — Reduce the values of an array to a single value (going left-to-right)
+- `reduceRight()` — Reduce the values of an array to a single value (going right-to-left)
+- `reverse()` — Reverses the order of the elements in an array
+- `shift()` — Takes the item off the front of an array and returns it to you
+- `slice()` — The opposite of splice; selects parts of an array, and returns the new array
+- `some()` — Checks if any of the elements in an array pass a test
+- `sort()` — Sorts the elements of an array
+- `splice()` — Adds/Removes elements from an array
+- `toString()` — Converts an array to a string, and returns the result
+- `unshift()` — The opposite of shift; Adds new elements to the beginning of an array, and returns the new length
+- `valueOf()` — Returns the primitive value of an array
 
 
 ## Methods Explained
-1: Converting Arrays to Strings
-    + toString()
+1. Converting Arrays to Strings
+    + `toString()`
 
-2: Popping and Pushing
-    + pop()
-    + push()
+2. Popping and Pushing
+    + `pop()`
+    + `push()`
 
-3: Shifting Elements
-    + shift()
-    + unshift()
+3. Shifting Elements
+    + `shift()`
+    + `unshift()`
 
-4: Changing Elements
+4. Changing Elements
     - Array elements are accessed using their index number
-    + indexOf()
-    + charAt()
+    + `indexOf()`
+    + `charAt()`
         
-5: Deleting Elements 
-    + delete()
+5. Deleting Elements 
+    + `delete()`
         
-6: Splicing an Array
-    + Using splice() to add an element(s)
-    + Using splice() to remove an element(s)
+6. Splicing an Array
+    + Using `splice()` to add an element(s)
+    + Using `splice()` to remove an element(s)
         
-7: Merging Arrays
-    + concat()
+7. Merging Arrays
+    + `concat()`
         - Can be used on multiple strings
         - As seen in: 
             var myGirls = [“Cecilie”, “Kathy”];
@@ -124,14 +124,14 @@ Array References
             var myDogs = [“Spot”, “Otis”];
             var allMyChildren = myGirls.concat(myBoys, myDogs); // returns [“Cecilie”, “Kathy”, “Marco”, “Ryan”, “Paul”, “Spot”, “Otis”]
 
-8: Slicing an Array
-    + slice()
+8. Slicing an Array
+    + `slice()`
 
-9: Automatic toString()
+9. Automatic `toString()`
     - JavaScript automatically converts an array to a comma separated string when a primitive value is expected
-    - You can also use indexOf() to return a primitive value; for example, in a string
+    - You can also use `indexOf()` to return a primitive value; for example, in a string
 
-10: Finding Max and Min Values in an Array
+10. Finding Max and Min Values in an Array
      - There are no built-in functions for this process
 
-11: Sorting Arrays
+11. Sorting Arrays
