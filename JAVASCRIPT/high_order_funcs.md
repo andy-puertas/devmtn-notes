@@ -30,9 +30,10 @@
     - array.map( ( item, index, arr) => { } )
 
 - The callback is used to change/alter/re-map the item
-    - array.map( function(item){ return item + ", eh"})
-    - array.map( function(item){ return item + 27})
-    -       array.map( function(item){ 
+    - `array.map( function(item){ return item + ", eh"})`
+    - `array.map( function(item){ return item + 27})`
+    - 
+            array.map( function(item){ 
                 if(item.isDemoted){ 
                     item.isAdmin = false; 
                 } else 
@@ -42,11 +43,11 @@
             })
  
 - Anything returned by the callback function is added to a new array
-    var array = [1, 2, 4, 10]
-    var mapResult = array.map( function( item ) { return item + 10} )
-    var mapResult = array.map( ( item ) => item + 10 )
-    mapResult === [ 11, 12, 14, 20]
-    array === [1, 2, 4, 10]
+        var array = [1, 2, 4, 10]
+        var mapResult = array.map( function( item ) { return item + 10} )
+        var mapResult = array.map( ( item ) => item + 10 )
+        mapResult === [ 11, 12, 14, 20]
+        array === [1, 2, 4, 10]
 
 ## filter
 - Loops through an array and returns an array with only values we deem worthy 
