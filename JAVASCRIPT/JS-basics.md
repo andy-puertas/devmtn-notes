@@ -51,12 +51,17 @@ Getting Started with JavaScript
 
         myFunction(); //calls myFunction. 
 
-FUNCTION EXPRESSION | FUNCTION DECLARATION:
-------------------- | ---------------------
+FUNCTION EXPRESSION | vs | FUNCTION DECLARATION:
+------------------- | -- | ---------------------
+var sayName = function(){  
+    alert(‘Fred’);
+}              
 
-var sayName = function(){ | function sayName(){
-    alert(‘Fred’);              alert(‘Fred’);
-}                            }
+| 
+
+function sayName(){
+    alert(‘Fred’);
+}
   
 # … call … invoke … run
 + When you declare a function, you announce its (parameters).
