@@ -6,19 +6,19 @@
 1. in `server` > `server.js`
     - a: dependencies!
 
-                require('dotenv').config(); // syntax is key!  
+            require('dotenv').config(); // syntax is key!  
 
     - b: invoke them
 
-                const app = express();
-                app.use( session({
-                    secret: 'xxxx', // pull this from .env
-                    resave: false,
-                    saveUninitialized: false
-                }));
-                app.use( passport.initialize() );
-                app.use( passport.session() );
-                passport.use( new Auth0Strategy({}, function(){} ));
+            const app = express();
+            app.use( session({
+                secret: 'xxxx',     // pull this from .env
+                resave: false,
+                saveUninitialized: false
+            }));
+            app.use( passport.initialize() );
+            app.use( passport.session() );
+            passport.use( new Auth0Strategy({}, function(){} ));
 
     - c: `Docked to ${PORT}`
 
