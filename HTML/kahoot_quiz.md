@@ -1,20 +1,22 @@
-## ROUND ONE
+# ROUND ONE
 
-### Inline elements default width is... 
+Inline elements default width is... 
 <details>
 <summary> <code> answer </code> </summary>
+
 only what they need
+
 </details>
 
-### What is the correct HTML element for inserting a line break? 
+What is the correct HTML element for inserting a line break? 
 <details>
 <summary> <code> answer </code> </summary>
-```
-<br>
-```
+
+`<br>`
+
 </details>
 
-### What doctype is correct for HTML5? 
+What doctype is correct for HTML5? 
 <details>
 <summary> <code> answer </code> </summary>
 
@@ -22,38 +24,63 @@ only what they need
 
 </details>
 
-### How can you make a bulleted list? 
+How can you make a bulleted list? 
 <details>
 <summary> <code> answer </code> </summary>
     
-    `<ul>`
+`<ul>`
 
 </details>
 
-### What is the correct HTML for inserting an image? 
+What is the correct HTML for inserting an image? 
 <details>
 <summary> <code> answer </code> </summary>
-```
-img src = “image.jpg" alt = “MyImage"
-```
+
+`img src = “image.jpg" alt = “MyImage"`
+
 </details>
 
-- What is the correct HTML for adding a background color? 
-    - `body style = “background-color: yellow;”`
-    + `background-color` is not a CSS style reference
-    + inline styling is the only option
+What is the correct HTML for adding a background color? 
+<details>
+<summary> <code> answer </code> </summary>
 
-- Block elements are normally displayed without starting a new line: `FALSE`.
-    + forces a new line by occupying the entire width of the block above 
+`body style = “background-color: yellow;”`
+`background-color` is not a CSS style reference
+inline styling is the only option
 
-- Which of the following does not need a pair tag?
-    - `<i> </i>`   
-    - `<img>` 
-    - `<u>` <— not a legitimate tag
-    - `<p> </p>`
+</details>
 
-- Block elements default width is the full width of the page. 
-    + inline elements only take what they need while block elements take the entire width
+Block elements are normally displayed without starting a new line: TRUE or FALSE? 
+<details>
+<summary> <code> answer </code> </summary>
+
+FALSE
++ forces a new line by occupying the entire width of the block above 
+
+</details>
+
+Which of the following does not need a pair tag?
+<details>
+<summary> <code> answer </code> </summary>
+
+- `<i> </i>`   
+
+- `<img>` 
+
+- `<u>` <— not a legitimate tag
+
+- `<p> </p>`
+
+</details>
+
+Block elements default width is... 
+<details>
+<summary> <code> answer </code> </summary>
+
+the full width of the page. 
++ inline elements only take what they need while block elements take the entire width
+
+</details>
 
 - A webpage displays a picture. What tag was used to display that picture? `<img>`
     + the “tag” refers to the beginning of the entire line of command in HTML, not attributes 
