@@ -2,62 +2,62 @@
 ### group all related features together and nest them as needed
 ### the world is your oyster!
 
-/src
-    /components
-        /ButtonDismiss
-            /images
-            /locales
-            /specs
-            /index.js
-            /styles.scss
-        /index.js
-        /styles.scss
-    
-    /scenes
-        /Home
+        /src
             /components
-                /ButtonLike
-            /services
-                /processData
-            /index.js
-            /styles.scss
-    
-        /Sign
-            /components
-                /FormField
-            /scenes
-                /Login
-                /Register
+                /ButtonDismiss
+                    /images
                     /locales
                     /specs
                     /index.js
                     /styles.scss
-    
-    /services
-        /api
-        /geolocation
-        /session
-            /action.js
-            /index.js
-            /reducer.js
-        /users
-            /actions.js
-            /api.js
-            /reducer.js
-    
-    index.js
-    store.js
+                /index.js
+                /styles.scss
+            
+            /scenes
+                /Home
+                    /components
+                        /ButtonLike
+                    /services
+                        /processData
+                    /index.js
+                    /styles.scss
+            
+                /Sign
+                    /components
+                        /FormField
+                    /scenes
+                        /Login
+                        /Register
+                            /locales
+                            /specs
+                            /index.js
+                            /styles.scss
+            
+            /services
+                /api
+                /geolocation
+                /session
+                    /action.js
+                    /index.js
+                    /reducer.js
+                /users
+                    /actions.js
+                    /api.js
+                    /reducer.js
+            
+            index.js
+            store.js
         
 - Each component, scene or service (a feature) has everything it needs to work on its own
     - styles, images, translations, set of actions, unit or integration tests
     - each feature is like an independent piece of code to be used
 
 # Must follow these rules:
-    - a component can define nested components. it cannot use or define scenes 
-    - a scene can define nested components, scenes, or services 
-    - a service can define nested services. it cannot use or define components or scenes
-    - nested features can only use from its parent
-        - meaning parent, grandparent, great-grandparents ... just not a cousin
+- a component can define nested components. it cannot use or define scenes 
+- a scene can define nested components, scenes, or services 
+- a service can define nested services. it cannot use or define components or scenes
+- nested features can only use from its parent
+    - meaning parent, grandparent, great-grandparents ... just not a cousin
 
 ## Components 
 - Important that one component can be nested into another
@@ -67,8 +67,9 @@
 ### Why?
 - Too many components at the root can crowd the folder structure
 - Makes it harder to return to the important/main components (buttons, form fields, thumbnails)
-    - listComments, formComposer can fall under the parent you know will use them 
+    - `listComments`, `formComposer` can fall under the parent you know will use them 
 ### For example...
+
     /src
         /components
             /Button -- can be used anywhere
@@ -82,7 +83,7 @@
             /reducer.js
         
 ## Scenes 
-- a page of your application
+- a page in your application
 - can see a scene just like any component, but they're instead neatly separated into their own folder
 - a scene can be nested into another scene 
 ### For example...
