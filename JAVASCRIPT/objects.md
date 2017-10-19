@@ -86,7 +86,7 @@
                 }
             };
 
-            var myDog = dogMaker('Otis', 'black');
-                - creates a dog named Otis that is black under 'myDog'
-            var TinasDog = dogMaker('Cane', 'grey');
-                - creates a dog named Cane that is grey under 'TinasDog'
+    - `var myDog = dogMaker('Otis', 'black');`
+        - creates a dog named `Otis` that is `black` under `myDog`
+    - `var TinasDog = dogMaker('Cane', 'grey');`
+        - creates a dog named `Cane` that is `grey` under `TinasDog`
