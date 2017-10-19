@@ -3,16 +3,16 @@
 
 - we can pull data accessed by cookies from them using restructuring:
 
-    req.session.key
+        req.session.key
 
 - structuring a session > `server/index.js`
 
-    app.use( session({
-        secret: '@nyThing y0u w@nT',
-        resave: false, // boolean
-        saveUninitialized: false, // boolean // what is your initial state?
-        expires: 100000 // milliseconds until website user logs out
-    }));
+        app.use( session({
+            secret: '@nyThing y0u w@nT',
+            resave: false, // boolean
+            saveUninitialized: false, // boolean // what is your initial state?
+            expires: 100000 // milliseconds until website user logs out
+        }));
 
 - great for shopping carts or other authentication scenarios where users are the same across multiple requests 
 
@@ -26,10 +26,10 @@
 
 - structuring an endpoint > `server/index.js`
 
-    app.get('/api/path', function(req, res, next) {
-        var whatdowewanttohappen;
-        var putthatcodeinhere;
-    }, next(); );
+        app.get('/api/path', function(req, res, next) {
+            var whatdowewanttohappen;
+            var putthatcodeinhere;
+        }, next(); );
 
 - this is where we would add filters / middleware
 - endpoints ignore question marks which is why it can handle filter requests 
