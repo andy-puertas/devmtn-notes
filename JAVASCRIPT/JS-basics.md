@@ -45,17 +45,17 @@ Getting Started with JavaScript
 - Index starts at 0 for the first var (instead of 1) - "zero based index"
 - `var arr = ['Proper', 'syntax', 'is', 'brackets', 'and', 'commas'];`
 - .......... index: .... `0` ............ `1` ........ `2` ......... `3` ......... `4` .......... `5`
-- Manipulating arrays:
-    - Accessing values: 
-        - `arr[0];` <- returns "Proper"
-        - `arr[4];` <- returns "and"
-    - Adding values:
-        - `arr.push(this);` <- adds `['this']` to the end of the array
-        - `arr.unshift(this);` <- adds `['this']` to the beginning of the array
-    - Removing values:
-        - `arr.pop;` <- removes last item `['commas']` from the end of the array
-        - `arr.shift;` <- removes first item `['Proper']` from the beginning of the array
-    * See high_order_funcs.md and reference_methods.md for additional array ref methods
+#### Manipulating arrays:
+- Accessing values: 
+    - `arr[0];` <- returns "Proper"
+    - `arr[4];` <- returns "and"
+- Adding values:
+    - `arr.push(this);` <- adds `['this']` to the end of the array
+    - `arr.unshift(this);` <- adds `['this']` to the beginning of the array
+- Removing values:
+    - `arr.pop;` <- removes last item `['commas']` from the end of the array
+    - `arr.shift;` <- removes first item `['Proper']` from the beginning of the array
+* See high_order_funcs.md and reference_methods.md for additional array ref methods
 - When accessing arrays, you often need to create a loop to "go through" / loop the array
     - For example...
 
