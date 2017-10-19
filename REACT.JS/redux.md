@@ -58,16 +58,16 @@ Redux
 
 # Steps
 1. Basics
-- Create a Store in `src` > `redux-stuff` > `store.js`
-- Inside of our store, we need a `reducer`
-- Hook app to store with `<Provider>` in `index.js`
-- The `<Provider>` needs a store component --> `<Provider store={store}>`
-- Hook components to store with `connect()` and `mapStateToProps`
+    - Create a Store in `src` > `redux-stuff` > `store.js`
+    - Inside of our store, we need a `reducer`
+    - Hook app to store with `<Provider>` in `index.js`
+    - The `<Provider>` needs a store component --> `<Provider store={store}>`
+    - Hook components to store with `connect()` and `mapStateToProps`
 
 2. Allow Data Changes
-- Create `reducer` with actions and action creators
-- import `{ loginAs }` from `'./redux-stuff/reducer'`
-- Dispatch actions with `dispatch`
-- `onClick={ ()=>dispatch(whateverYoureDispatching()) }`
-- Don't forget to (call) the function
+    - Create `reducer` with actions and action creators
+    - import `{ loginAs }` from `'./redux-stuff/reducer'`
+    - Dispatch actions with `dispatch`
+    - `onClick={ ()=>dispatch(whateverYoureDispatching()) }`
+    - Don't forget to (call) the function
 
