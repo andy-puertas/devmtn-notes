@@ -32,8 +32,7 @@
 - The callback is used to change/alter/re-map the item
     - array.map( function(item){ return item + ", eh"})
     - array.map( function(item){ return item + 27})
-    - 
-            array.map( function(item){ 
+    -       array.map( function(item){ 
                 if(item.isDemoted){ 
                     item.isAdmin = false; 
                 } else 
