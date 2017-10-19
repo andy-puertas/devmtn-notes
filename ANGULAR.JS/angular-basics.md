@@ -7,5 +7,7 @@
 - the grandfather of a number of ES6/ES7 JavaScript functions (for example: `map()`)
 - Angular 1 is the most commonly implementing version of this framework in the marketplace
 
-## Definitions:
-- `directive`: 
+## Keywords:
+- `directive`: An HTML attribute or tag that gives behavior to the element
+- `CDN`: C. ontent D. elivery N. etwork
+    - how files are commonly distributed for Angular apps (and others that are not bundled)

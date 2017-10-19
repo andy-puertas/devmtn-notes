@@ -1,4 +1,5 @@
-# ROUND ONE
+Round One
+=========
 
 ### Inline elements default width is... 
 
@@ -74,6 +75,7 @@ only what they need
 
 
 ### Which of the following does not need a pair tag?
+
 1. `<i> </i>`   
 2. `<img>` 
 3. `<u>`
@@ -99,6 +101,7 @@ only what they need
 
 
 ### A webpage displays a picture. What tag was used to display that picture? 
+
 <details>
 <summary> <code> answer </code> </summary>
 
@@ -119,6 +122,7 @@ only what they need
 
 
 ### Choose the correct HTML tag for the smallest size heading:
+
 1. `<head>`   
 2. `<h6>`   
 3. `<heading>`
@@ -236,15 +240,27 @@ only what they need
 </details> 
 
 
-## ROUND TWO
+Round Two
+=========
 
-- Which one of these will select a group of elements with the same class?
-    - `.items` <-- correct!                 
-    - `items` <— elements 
-    - `#items` <— id        
-    - `{items}` <— not a selector 
+### Which one of these will select a group of elements with the same class?
+1. `.items`                
+2. `items`
+3. `#items`   
+4. `{items}`
 
-- What does CSS stand for? 
+<details>
+<summary> <code> answer </code> </summary>
+
+1. `.items`
+
+</details> 
+
+
+### What does CSS stand for? 
+
+<details>
+<summary> <code> answer </code> </summary>
 
     ```
     C ascading 
@@ -255,65 +271,134 @@ only what they need
 + “cascading”: it reads from top to bottom
 + if there is ever a conflict, the last command declared wins. 
 
-- Which changes the font to Arial style? 
-    + `font-family: Arial;`
+</details>
 
-- Where do you place styles? Inside the `<style></style>` tags.
 
-- Which changes the size of the font?
-    + `font-size: 30 px;`
+### How could you change the font of an element to Arial style? 
 
-- Which of these will select an id tag?
-    - `<style> first paragraph </style>`    
-    - `first_paragraph`
-    - `#first-paragraph` <-- correct answer                               
-    - `.first_paragraph` <— looks for class 
+<details>
+<summary> <code> answer </code> </summary>
 
-- What does padding do? 
-    + Adds space between content and the containing box/border. 
-    + `margin:` adds space between the border and other elements.  
+`font-family: Arial;`
 
-- Which of these CSS statements will change the color of the font?
-    - `color: red;` <-- correct answer                   
-    - `class= “red”`
-    - `red: font;`                    
-    - `font-color: red;`
+</details>
 
+
+### Where do you place styles? 
+
+<details>
+<summary> <code> answer </code> </summary>
+
+Inside the `<style></style>` tags.
+
+</details>
+
+
+### How could you change the size of a font?
+
+<details>
+<summary> <code> answer </code> </summary>
+
+`font-size: 30 px;`
+
+</details>
+
+
+### Which of these will select an id tag?
+
+1. `<style> first paragraph </style>`    
+2. `first_paragraph`
+3. `#first-paragraph`                               
+4. `.first_paragraph`
+
+<details>
+<summary> <code> answer </code> </summary>
+
+3. `#first-paragraph` 
+
+</details>
+
+
+### What does padding do? 
+
+<details>
+<summary> <code> answer </code> </summary>
+
++ Adds space between content and the containing box/border. 
++ `margin:` adds space between the border and other elements.  
+
+</details>
+
+
+### Which of these CSS statements will change the color of the font?
+1. `color: red;`                   
+2. `class= “red”`
+3. `red: font;`                    
+4. `font-color: red;`
+
+<details>
+<summary> <code> answer </code> </summary>
+
+1. `color: red;`
 - Creates a separate section of text for styling purposes: `<div></div>`.
 
+</details>
 
-## ROUND THREE
 
-- From inside to outside what is the correct order? 
-    + `Element` -> `Padding` -> `Border` -> `Margin`. 
+Round Three
+===========
 
-- How do I create a 1px wide green frame around my image? 
-    + `border: 1px solid green;`
-    + `width`, `style`, `color` --  always in this order
+### From inside to outside what is the correct order of the following elements?
+- `Margin`
+- `Padding`
+- `Element` 
+- `Border`
 
-- How do I set the margin to 1px on all sides except the right (the right one should be 5px)? 
+<details>
+<summary> <code> answer </code> </summary>
+
+1. `Element` 
+2. -> `Padding` 
+3. -> `Border` 
+4. -> `Margin`
+
+</details>
+
+
+### How do I create a 1px wide green frame around my image? 
+
+<details>
+<summary> <code> answer </code> </summary>
+
++ `border: 1px solid green;`
++ `width`, `style`, `color` --  always in this order
+
+</details>
+
+
+### How do I set the margin to 1px on all sides except the right (the right one should be 5px)? 
     - `margin: 1px 5px 1px 1px;` _or_ `margin: 1px; margin-right: 5px;`
     + `margin-right: 5px;` overrides the rest of the settings for the one side
 
-- What is an example of a tag with a default display type of block? 
+### What is an example of a tag with a default display type of block? 
     - `<div> or <p>`
 
-- What part of the box model represent the space between the content and the border? `padding`. 
+### What part of the box model represent the space between the content and the border? `padding`. 
     + `margin` is between the border and the other elements 
 
-- How do you center an element with a display property of block? `margin: 0 auto;`
+### How do you center an element with a display property of block? `margin: 0 auto;`
     + `text-align: center;` works for centering text inside of something
     + `margin: 0 auto;` will take any content and center it horizontally
     + tag names never influence layout properties 
 
-- Which is the most specific type of CSS selector? `inline style`. 
+### Which is the most specific type of CSS selector? `inline style`. 
     + element is the least specific type of selector
 
-- What property would you use to make the text bold? `font-weight: bold;`
+### What property would you use to make the text bold? `font-weight: bold;`
     + font-weight affects darkness/lightness of the font element
 
-- What display type gives an element its own line? 
+### What display type gives an element its own line? 
     + block
 
-- What property controls how round the corners of an element are? 
+### What property controls how round the corners of an element are? 
     + border-radius
