@@ -1,4 +1,11 @@
 ## Objects Practice
+### More Practice:
+- [Objects: Level 1](https://codecard.io/a/sequence/d4Zvupnjy)
+- [Objects: Level 2](https://codecard.io/a/sequence/NrEp1cG0I)
+- [Objects: Level 3](https://codecard.io/a/sequence/d4XkxoFsf)
+- [Arrays: Level 1](https://codecard.io/a/sequence/NEdi0jnsI)
+- [Arrays: Level 2](https://codecard.io/a/sequence/d4EvWJDsy)
+- [Arrays: Level 3](https://codecard.io/a/sequence/7EAjKTA0y)
 
 ### Objective
 - To better understand objects in Javascript by completing a series of activities
