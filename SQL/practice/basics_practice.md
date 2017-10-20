@@ -1,4 +1,4 @@
-## DAY ONE OF SQL EXERCISE! 
+## Practicing Basic Concepts
 
 1. Find the average length of all tracks in Milliseconds = 6.043391378818156
 - `column: Milliseconds` 
