@@ -6,19 +6,19 @@
 - _When do we use the WHERE keyword?_
 - _What keywords do we use to modify information in the Database?_
 
-## What is a relational database?
+### What is a relational database?
 - like an excel sheet
 - columns, rows, and keys
 - different SQL languages, but we are using postgreSQL
 
-## What is SQL?
+### What is SQL?
 - Helps us pull data from and add data to or create tables
 
-## What are schemas?
+### What are schemas?
 - blueprint for your database
 - instructions for how to set up your table
 
-## How do we use Data Types?
+### How do we use Data Types?
 - null: an empty value within a table
 - numeric:
     - INTEGER - will return a whole/rounded number
@@ -29,9 +29,9 @@
     - TEXT - unlimited
     - VARCHAR(n) - limited to n characters 
 
-## A SQL statement is a query; semicolons! matter! 
+### A SQL statement is a query; semicolons! matter! 
 
-## Selecting Data from a Table
+### Selecting Data from a Table
 - general syntax
 
         SELECT ColumnName
@@ -58,7 +58,7 @@
         FROM TableName
         WHERE ColumnName='value';
 
-## Adding. Updating, Removing Rows in a Table 
+### Adding. Updating, Removing Rows in a Table 
 - add multiple values on the same line, separate using (), (), ();
 
         INSERT INTO TableName (column1, column2)
@@ -75,11 +75,11 @@
         DELETE FROM TableName
         WHERE id = idNum;
 
-## What is Massive.js?
+### What is Massive.js?
 `more to come`
 
-## Getting Data from DB using Endpoints 
+### Getting Data from DB using Endpoints 
 `more to come`
 
-## Inserting Data to DB using Endpoints 
+### Inserting Data to DB using Endpoints 
 `more to come`
