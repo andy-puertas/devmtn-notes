@@ -4,7 +4,7 @@
 - => [`sql-basics.md`](https://github.com/kale-stew/devmtn-notes/blob/master/SQL/sql-basics.md)
 - => [`sql-for-dummies.md`](https://github.com/kale-stew/devmtn-notes/blob/master/SQL/sql-for-dummies.md)
 - mini project: [`simple-sql-queries`](https://github.com/kale-stew/devmtn-notes/blob/master/SQL/practice/basics_practice.md)
-- afternoon project: => [`more-simple-queries`]()
+- afternoon project: => [`more-simple-queries`](https://github.com/kale-stew/devmtn-notes/blob/master/SQL/practice/more_practice.md)
 
 ## Week Four, Day Three: 
 - => [`advanced_sql.md`](https://github.com/kale-stew/devmtn-notes/blob/master/SQL/advanced_sql.md)
