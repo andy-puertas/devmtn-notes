@@ -1,4 +1,4 @@
-# learning react-native
+# Welcome to react-native!
 
 ## resources:
 - [Wes Bos](https://twitter.com/wesbos) made a truly phenomenal react-native/redux [Udemy course](https://www.udemy.com/the-complete-react-native-and-redux-course/learn/v4/content)
