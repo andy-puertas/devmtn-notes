@@ -1,5 +1,12 @@
 # React.js! 
 
+## Todd's Focus Questions:
+- _What is React?_
+- _What is a Component?_
+- _How is a Component similar to a function?_
+- _What is JSX and how is it similar to HTML, how is it different?_
+- _Do we use a constructor function or class when making components?_
+
 ## What is a component?
 - A page of script saved and later imported and inserted into mainframe code
 - Structured similarly to a tree / branches

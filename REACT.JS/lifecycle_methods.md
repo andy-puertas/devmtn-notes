@@ -1,9 +1,8 @@
 ## Todd's Focus Questions:
-* _What is React?_
-* _What is a Component?_
-* _How is a Componet similiar to a function?_
-* _What is JSX and how is it similar to HTML, how is it different?_
-* _Do we use a constructor funciton or class when making components?_
+- _What are the differences between props and state?_
+- _How do we update values on state? Why do we do it this way?_
+- _In JavaScript, what are events?_
+- _How do we use props to pass information from a parent component to a child component?_
 
 ## Overview
 - Components allow you to split the UI into independent, reusable pieces, and think about each piece in isolation. 

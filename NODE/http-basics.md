@@ -1,5 +1,12 @@
 # HTTP Basics
 
+## Todd's Focus Questions:
+- _What does Asynchronous code mean and why is it important in HTTP?_
+- _What is a Promise?_
+- _When does a .then callback function run?_
+- _What is an API and what does it mean to “Make an API call?”?_
+- _What is Axios?_
+
 ## Clients: 
 - Handle user interaction
 - Present data from server
