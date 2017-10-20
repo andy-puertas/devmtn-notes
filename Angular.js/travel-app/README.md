@@ -10,10 +10,10 @@ Set up routes and subroutes as finishing touches on an Angular.js travel applica
 
 ### Or just check out these pics of the final product:
 #### About Page:
-![about](/assets/about.png)
+![about](./assets/about.png)
 
 #### Locations View:
-![locations](/assets/locations.png)
+![locations](./assets/locations.png)
 
 #### Packages View:
-![packages](/assets/packages.png)
+![packages](./assets/packages.png)
