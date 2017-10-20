@@ -1,3 +1,10 @@
+## Todd's Focus Questions:
+- _What are the default vales for animation timing, and how does each one differ?_
+- _What is the shorthand property in CSS animations?_
+- _How is the keyframe animation approach different from the shorthand?_
+- _What does mobile first development mean?_
+- _When should you use min-width, and when should you use max-width?_
+
 ## What is a media query?
 - Initiated with the `@media` call
 - Parameter can be conditions in which to apply the new style 
