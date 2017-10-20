@@ -1,0 +1,23 @@
+{
+  "name": "sql-massive-node",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kale-stew/repository.git"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "massive": "^4.0.0"
+  }
+}

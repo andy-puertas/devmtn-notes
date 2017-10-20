@@ -1,4 +1,5 @@
 ## Practicing Basic Concepts
+## via [simple-sql-queries](https://github.com/devmountain/simple-sql-queries)
 
 1. Find the average length of all tracks in Milliseconds = 6.043391378818156
 - `column: Milliseconds` 
