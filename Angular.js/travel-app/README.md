@@ -1,4 +1,7 @@
+# [DevMtn Travels](https://github.com/DevMountain/angular-2-afternoon)
+
 ## Overview
+Set up routes and subroutes as finishing touches on an Angular.js travel application.
 
 ## Setup
 1. `cd` into project directory
