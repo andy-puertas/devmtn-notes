@@ -19,15 +19,15 @@
 - instructions for how to set up your table
 
 ### How do we use Data Types?
-- null: an empty value within a table
+- `NULL`: an empty value within a table
 - numeric:
-    - INTEGER - will return a whole/rounded number
-    - DECIMAL - unlimited decimal places!
-    - FLOAT - up to 15 digits after the decimal
-    - SERIAL - equates to an incrementing integer 
+    - `INTEGER` - will return a whole/rounded number
+    - `DECIMAL` - unlimited decimal places!
+    - `FLOAT` - up to 15 digits after the decimal
+    - `SERIAL` - equates to an incrementing integer 
 - character:
-    - TEXT - unlimited
-    - VARCHAR(n) - limited to n characters 
+    - `TEXT` - unlimited
+    - `VARCHAR(n)` - limited to n characters 
 
 ### A SQL statement is a query; semicolons! matter! 
 
