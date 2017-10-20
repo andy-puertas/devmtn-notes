@@ -1,0 +1,40 @@
+import React, { Component } from 'react';
+// import axios from 'axios';
+import { connect } from 'react-redux';
+import { getUser } from '../../ducks/users';
+
+class Private extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            user: {}
+        }
+    };
+
+    componentDidMount() {
+        this.props.getUser();
+    };
+
+    render() {
+        return(
+            <div className=''>
+                <h1>Community Bank</h1><hr />
+                <h4>Account information:</h4>{ this.props.user ? 
+                    <img className='avatar' alt="" src={this.props.user.img} /> : null }
+                    <p>Username: { this.props.user ? this.props.user.user_name : null }</p>
+                    <p>Email: { this.props.user ? this.props.user.email : null }</p>
+                    <p>ID: { this.props.user ? this.props.user.auth_id : null }</p>
+                    <h4>Available balance: { this.props.user ? '$' + Math.floor((Math.random() + 4) * 1000) + '.00' : null } </h4>
+            <a href='http://localhost:3030/auth/logout'><button>Log out</button></a>
+        </div> 
+        )
+    }
+};
+
+function mapStateToProps( state ) {
+    return {
+        user: state.user
+    }
+};
+
+export default connect(mapStateToProps, { getUser })(Private)

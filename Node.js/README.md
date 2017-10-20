@@ -13,4 +13,4 @@
 ## Week Five, Day Three: 
 - => [`handling-auth.md`](https://github.com/kale-stew/devmtn-notes/blob/master/Node.js/handling-auth.md)
 - mini project: [handling-auth](https://github.com/devmountain/node-auth-mini)
-- afternoon project: => [``]()
+- afternoon project: => [`community-bank`]()
