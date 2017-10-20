@@ -1,4 +1,3 @@
-
 ## Foreign Keys - New Table
 
 ### Summary
@@ -11,8 +10,8 @@ When creating tables we can specify a column as having a foreign key. The dataty
 * Query the `Movie` table to get your entry.
 
 ## My solution:
-
-
+```
+```
 
 ## Foreign Keys - Existing Table
 
@@ -24,8 +23,8 @@ We can also add a foreign key to an existing table. Let's add one to our `Movie`
 * Query the `Movie` table to see your entry.
 
 ## My solution:
-
-
+```
+```
 
 ## Updating Rows
 
@@ -37,8 +36,8 @@ We don't want to leave the `GenreId` equal to `null` so let's add a value using 
 * Query the `Movie` table to see your entry.
 
 ## My solution:
-
-
+```
+```
 
 ## Using Joins
 
@@ -49,8 +48,8 @@ Now that we know how to make foreign keys and change data, let's do some practic
 * Join the `Artist` and `Album` tables to list out the Artist name and Album name.
 
 ## My solution:
-
-
+```
+```
 
 ## Using nested queries/sub-selects
 
@@ -61,8 +60,8 @@ The next way to use a primary key is with a nested query/sub-select statement. B
 * Use a sub-select statement to get all tracks from the `Track` table where the `GenreId` is either `Jazz` or `Blues`.
 
 ## My solution:
-
-
+```
+```
 
 ## Setting values to null
 
@@ -71,8 +70,8 @@ The next way to use a primary key is with a nested query/sub-select statement. B
 * Query the `Employee` table to get the employee you just updated.
 
 ## My solution:
-
-
+```
+```
 
 ## Querying a null value
 
@@ -83,8 +82,8 @@ Sometimes you want to know when there is no value. For example, let's use the `C
 * Get all customers from the `Customer` table who do not have a company.
 
 ## My solution:
-
-
+```
+```
 
 ## Group by
 
@@ -95,15 +94,15 @@ How many albums does each artist have? We could count manually, but no! Group by
 * Select all artist ids, artist names, and count how many albums they have.
 
 ## My solution:
-
-
+```
+```
 
 ### Challenge
 Modify the solution to order the album count by largest to smallest.
 
 ## My solution:
-
-
+```
+```
 
 ## Distinct
 
@@ -114,8 +113,8 @@ Distinct is great if you want to get a dataset with no duplicates.
 * Get all countries from the `Customer` table with no duplicates.
 
 ## My solution:
-
-
+```
+```
 
 ## Delete Rows
 
@@ -127,5 +126,5 @@ Deleting rows can be dangerous if you are not cautious. Always do a select of wh
 * Delete all records from the `Customer` table where fax is null;
 
 ## My solution:
-
-
+```
+```
