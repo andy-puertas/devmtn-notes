@@ -1,6 +1,13 @@
 Redux
 =====
 
+## Todd's Focus Questions:
+- _How does the router know to change the components on the page?_
+- _What does the exact keyword do when using Router?_
+- _How many child elements can router have?_
+- _What does the Switch Component do? What does sibling route mean?_
+- _What does the Link component do?_
+
 ## Pre-Class
 - Redux is _not_ React-specific software
 - Redux allows us to code our components to communicate with each other, but it is not inherent functionality of this software

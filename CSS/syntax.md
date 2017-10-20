@@ -1,5 +1,12 @@
 # CSS Properties
 
+## Todd's Focus Questions:
+- _What’s the difference between a block-level element and an inline element? Can you give an example of both?_
+- _What does the box-sizing: border-box help us do?_
+- _What’s the difference between fixed positioning and absolute positioning?_
+- _What can the float property be used for?_
+- _What does display: flex allow us to do?_
+
 ## Position
 * defaults to static, where elements render in order as they appear in the document flow
 * `absolute`: element is positioned relative to its first positioned ancestor element
