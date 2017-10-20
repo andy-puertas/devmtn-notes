@@ -1,3 +1,5 @@
+# Understanding Component Lifecycle Methods
+
 ## Todd's Focus Questions:
 - _What are the differences between props and state?_
 - _How do we update values on state? Why do we do it this way?_
