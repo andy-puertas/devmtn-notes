@@ -1,3 +1,26 @@
+## Todd's Focus Questions:
+- _Why would we want to use sessions?_
+- _What is a cookie?_
+- _Is the session unique to each computer or login?_
+
+# In-Class Notes
+## What is middleware?
+- Code that sits in the middle of two other pieces of code 
+- Is able to monitor and possibly modify communication, in both directions 
+- All middleware takes a `req`, `res`, `next`
+- Gives us a chance to modify requests
+
+## When do we use `app.use()` vs inline middleware?
+- `inline middleware`: when we insert middleware as a parameter, when we want it to run for just a single route/endpoint
+- `app.use()`: runs the middleware for every single request to our server, which can be desireable (i.e. `body-parser`)
+
+## What is the `next` parameter in a middleware function? What makes it useful, say, compared to if you were expect to use a return statement?
+- The next paramter is called only when our middleware is done
+- Allows us to do async operations, like looking up data within a db, or making a request to another server
+
+## What's an HTTP session?
+- An on-going conversation between client and server
+
 ## What are Express Sessions?
 - `cookies`: help us retain small bits of data on a user/client computer to be accessed when they visit our site/server again
 
