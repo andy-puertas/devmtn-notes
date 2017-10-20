@@ -13,10 +13,13 @@ Live example: <a href="https://devmountain.github.io/angular-1-afternoon/">Click
 
 ### Or just check out these cool images of the complete product:
 #### Landing View:
-![landing](./assets/landing.png)
+![landing](./assets/home.png)
 
 #### `Filter by:` Options:
 ![filters](./assets/filters.png)
 
 #### Filter Success! 
-![winning](./assets/winning.png)
+![winning](./assets/success.png)
+
+#### Search Success! 
+![winning](./assets/search.png)
