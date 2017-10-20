@@ -1,3 +1,10 @@
+## Todd's Focus Questions:
+- _What is a foerign key?_
+- _What does an Inner Join do?_
+- _What does Aliasing allow you to do?_
+- _What character does the Like keyword replace when using Where?_
+- _What keyword is used for doing a sub query?_
+
 ## Manipulations
 ### Gathering data about our data
 

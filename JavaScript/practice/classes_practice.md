@@ -1,5 +1,4 @@
-Practice with Classes
-====================
+# Practice with Classes
 
 - Classes are a tool for building similar objects over and over again. They are a construct that helps your organize your code.
 - Let's work with some employees at a company.

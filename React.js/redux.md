@@ -8,6 +8,13 @@ Redux
 - _What does the Switch Component do? What does sibling route mean?_
 - _What does the Link component do?_
 
+## More Focus Questions:
+- _What does Redux help us do? How might this be helpful?_
+- _What is immutability in javascript?_
+- _What is the purpose of a reducer?_
+- _How do we pass information to a reducer?_
+
+
 ## Pre-Class
 - Redux is _not_ React-specific software
 - Redux allows us to code our components to communicate with each other, but it is not inherent functionality of this software
