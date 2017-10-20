@@ -1,5 +1,10 @@
-## When creating a server...
+## What does massive do?
+- Convert our SQL requests/commands in `db` to functions that return in our `console.log` 'db' object
+- `getAll()` sends out for info 
+- => `then()` what happens when it comes back? 
+- => => `catch()` filters remaining errs
 
+## When creating a server...
 - `npm init -y` {creates a `package.json`}
 - create a `server` folder
 - create an `index.js` inside that `server` folder
