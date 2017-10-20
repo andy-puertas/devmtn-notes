@@ -13,3 +13,4 @@
 
 ## Week Five, Day One: Media Queries and Animations
 - => [`media_queries.md`](https://github.com/kale-stew/devmtn-notes/blob/master/CSS%20%2B%20HTML/media_queries.md)
+- mini project: [react-animations](https://github.com/DevMountain/react-animations-mini)
