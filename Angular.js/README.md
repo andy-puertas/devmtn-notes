@@ -6,6 +6,11 @@
 - afternoon project: => [`friend-list`](https://github.com/kale-stew/devmtn-notes/tree/master/Angular.js/friend-list)
 
 ## Day Two: Services, ui-router, and $http
-- > services.md
+- => [`services.md`]()
 - mini project: [`http-requests`](https://github.com/DevMountain/angular-2-mini)
-- afternoon project: [`travel app`] 
+- afternoon project: [`travel-app`](https://github.com/kale-stew/devmtn-notes/tree/master/Angular.js/travel-app)
+
+## Day Three:
+- => [`components.md`]()
+- mini project: [`car-listings`](https://github.com/DevMountain/angular-3-mini)
+- afternoon project: [`swag-shop`]()
