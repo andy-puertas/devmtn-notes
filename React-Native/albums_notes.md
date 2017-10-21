@@ -1,5 +1,5 @@
 ## Starting with React Native
-### following Wes Bos' [Udemy Course](https://www.udemy.com/the-complete-react-native-and-redux-course/learn/v4/content)
+### following [Stephen Grider](https://github.com/StephenGrider)'s [Udemy Course](https://www.udemy.com/the-complete-react-native-and-redux-course/learn/v4/content)
 
 REACT | REACT-NATIVE
 ----- | -------------
