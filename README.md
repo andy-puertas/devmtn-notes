@@ -8,4 +8,4 @@ devmountain wpx1
 - external links included in each individual section
 - feedback is appreciated!
 
-`thanks` `for` `checking` `my` `notes` `out``!`
+`thanks` `for` `checking` `my` `notes` `out` `!`
