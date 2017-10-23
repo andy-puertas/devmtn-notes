@@ -1,10 +1,11 @@
 {
-    "name": "swag-shop",
-    "version": "1.0.0",
-    "scripts": {
-        "dev": "live-server ./"
-    },
-    "dependencies": {
-        "live-server": "^1.2.0"
-    }
+  "name": "swag-shop",
+  "version": "1.0.0",
+  "description": "### Black Diamond: - notification of any type when 'add to cart' is clicked     - async call to server?     - spinner => 'done'?     - 'count' on cart ++ - details onClick for each item",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
