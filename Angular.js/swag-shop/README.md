@@ -21,3 +21,6 @@
 
 #### View of Empty Cart:
 ![empty-cart](./assets/empty-cart.png)
+
+#### View of Full Cart:
+`... to be added...`
