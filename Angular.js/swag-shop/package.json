@@ -1,10 +1,10 @@
 {
-    name: "angular-3-afternoon",
-    version: "1.0.0",
-    scripts: {
-        dev: "live-server ./"
+    "name": "swag-shop",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "live-server ./"
     },
-    dependencies: {
-        live-server: "^1.2.0"
+    "dependencies": {
+        "live-server": "^1.2.0"
     }
 }
