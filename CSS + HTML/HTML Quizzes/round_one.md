@@ -6,8 +6,6 @@ Round One
 <details>
 <summary> <code> answer </code> </summary>
 <br>
-<br>
-
 only what they need
 
 </details>
