@@ -16,6 +16,7 @@ angular.module('swagShop').component('detailsComponent', {
         // assign a method that takes an item param and uses it to call the add method on the cart service
         this.addToCart = function( item ) {
             cartSrvc.add( item );
+            console.log( cartSrvc.currentCart() );
         };
     }
 });
