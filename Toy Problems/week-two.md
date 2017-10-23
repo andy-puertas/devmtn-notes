@@ -1,4 +1,4 @@
-## Monday
+# Monday
 
 Trolls are attacking your comment section!
 A common way to deal with this situation is to remove all of the vowels from the trolls' comments, neutralizing the threat.
@@ -19,7 +19,7 @@ For example, the string "This website is for losers LOL!" would become "Ths wbst
 
 ### Step 7: Solve
 
-## Tuesday
+# Tuesday
 
 A printer prints colors represented by the letters "a" through "m". At the end of the print, it puts out a control string to show what colors were printed.  A "good" control string output example might be "aaabbbbhaijjjm" due to the fact that only the letters a through m were used, and no errors (other letters) were used.
 
@@ -77,11 +77,11 @@ function printerError(str){
 printerError('aaaooozzz');
 ```
 
-## Wednesday
+# Wednesday
 
 Average write a function that takes in an array of numbers as a parameter. find the average of the numbers and return that value.
 
-**Advanced**: before returning the average, round up to the nearest whole value //and or //only find the average of even numbers
+**Advanced**: before returning the average, round up to the nearest whole value and/or only find the average of even numbers
 
 ### Step 1: Clarify - Understand the question
 Create a function that adds up every var in an array then divides that sum by the total length
@@ -136,7 +136,7 @@ function avgFinder(arr) {
 avgFinder([1,2,3,4,5,6]);
 ```
 
-## Thursday
+# Thursday
 
 Write a function called songDecoder that removes the terrible dubstep sounds from a song, to reveal the original, pure, un-dubstepped beauty.
 The input consists of a single non-empty string, consisting only of uppercase English letters, the string's length doesn't exceed 200 characters

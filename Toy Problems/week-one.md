@@ -1,4 +1,4 @@
-## Monday
+# Monday
 
 Create a function expression that will alert your name.
 
@@ -49,11 +49,11 @@ Create a function that returns a function.
         }
     }
 
-## Tuesday
+# Tuesday
 
 Without using `.split`, `.reverse`, or `.join`, write a function that says whether or not a given input is a palindrome.
 
-### Step 1: Clarify - Understand the question - Rewrite this short and concise. 
+### Step 1: Clarify - Understand the question 
 My function returns true if the given string is the same forwards and backwards. 
 
 ### Step 2: Create sample data
@@ -83,27 +83,27 @@ My function returns true if the given string is the same forwards and backwards.
 - create var `newStr`
 - reverse for loop on str
 - `newStr` += letter of for loop index
-- return `newStr` === str
+- return newStr === str
 
 ### Step 7: Solve
 ```
 var isItAPalindrome = function(str) {
-  var newStr = "";
-  for (var i= str.length-1; i>=0; i--) {
-    newStr += str[i];
-  } return newStr === str;
+    var newStr = "";
+    for (var i= str.length-1; i>=0; i--) {
+        newStr += str[i];
+    } 
+  return newStr === str;
 }
 ```
 
-## Wednesday
+# Wednesday
 
-Return an array containing the numbers from 1 to N, where N is the parametered value.
-N will never be less than 1.
+Return an array containing the numbers from 1 to N, where N is the parametered value. N will never be less than 1.
 
 Replace certain values if any of the following conditions are met:
-- If the value is a multiple of 3: use the value 'Fizz' instead
-- If the value is a multiple of 5: use the value 'Buzz' instead
-- If the value is a multiple of 3 & 5: use the value 'FizzBuzz' instead
+- If the value is a multiple of 3: use the value `'Fizz'` instead
+- If the value is a multiple of 5: use the value `'Buzz'` instead
+- If the value is a multiple of 3 & 5: use the value `'FizzBuzz'` instead
 
 ### Step 1: Restate the instruction in your own words.
 My function must return an array containing the numbers from one to N, that loops N number of times, replacing the value with 'Fizz' if it's a multiple of 3, 'Buzz' if it is a multiple of 5, or 'FizzBuzz' if it is a multiple of both.
@@ -122,16 +122,22 @@ function whatsFizzBuzz(n: Number) {
 ```
 
 ### Step 5: Create some pseudo-code/Define the algorithm
-- function whatsFizzBuzz(n: Number) { 
+- function whatsFizzBuzz(n: Number)
 - create an empty array
-- loop through 1-n
-    - if n is divisble by 3 && 5, push 'FizzBuzz' into array
-    - if n is divisible by 3, push 'Fizz' into array
-    - if n is divisible by 5, push 'Buzz' into array
+- loop through `1-n`
+    - if `n` is divisble by 3 && 5, push `'FizzBuzz'` into array
+    - if `n` is divisible by 3, push `'Fizz'` into array
+    - if `n` is divisible by 5, push `'Buzz'` into array
 - return arr: Array
 
 ### Step 6: Identify code constructs
--functyion, for loop, if/else, array, %, ===, push/splice
+- function
+- for loop
+- if/else
+- array
+- %
+- ===
+- push/splice
 
 ### Step 7: Create a solution
 ```
@@ -146,11 +152,11 @@ function whatsFizzBuzz(n) {
         arr.push('Buzz');
         } else arr.push('i'); 
     } 
-    return arr;
+  return arr;
 }
 ```
 
-## Thursday
+# Thursday
 
 In DNA strings, symbols "A" and "T" are complements of each other, as are "C" and "G". Given one side of the DNA, you need to find the complementary side.
 
@@ -193,28 +199,23 @@ Swap C to G and G to C
 ### Step 7: Solve
 ```
 function dnaReplace(dnaStrand){
-convert string to an array
-  var arr = dnaStrand.split("");
-loop through the array
-establish what character we are working with
-assign new value to character 
-  for(var i=0; i<arr.length; i++) {
-    switch(arr[i]) {
-      case 'A':
-        arr[i] = 'T';
-        break;
-      case 'G':
-        arr[i] = 'C';
-        break;
-      case 'C':
-        arr[i] = 'G';
-        break;
-      case 'T':
-        arr[i] = 'A';
-        break;
+    var arr = dnaStrand.split("");
+    for(var i=0; i<arr.length; i++) {
+      switch(arr[i]) {
+        case 'A':
+            arr[i] = 'T';
+            break;
+        case 'G':
+            arr[i] = 'C';
+            break;
+        case 'C':
+            arr[i] = 'G';
+            break;
+        case 'T':
+            arr[i] = 'A';
+            break;
+      }  
     }
-join the array as a string   
-  }
   return arr.join('');
 }
 ```
