@@ -8,8 +8,8 @@
 
 ## Week Four, Day Three: 
 - => [`advanced_sql.md`](https://github.com/kale-stew/devmtn-notes/blob/master/SQL/advanced_sql.md)
-- mini project: []()
-- afternoon project: => [``]()
+- mini project: [intermediate-sql-queries](https://github.com/devmountain/intermediate-sql-queries)
+- afternoon project: => [`practice/intermediate-queries.md`](https://github.com/kale-stew/devmtn-notes/blob/master/SQL/practice/intermediate-queries.md)
 
 ### Other Files:
 - A nice, comprehensive step-by-step of how to get a server connected to a db using node.js and a heroku db => [`npm_massive.md`](https://github.com/kale-stew/devmtn-notes/blob/master/SQL/npm_massive.md)
