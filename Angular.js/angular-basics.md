@@ -1,3 +1,5 @@
+# Get to know Angular! 
+
 ## Some background:
 - [jQuery Docs](jQuery.com)
 - putting jQuery into your docs:
@@ -15,3 +17,6 @@
     - similarly to React
 - `dependency injection`: A way to swap out dependencies for the sake of testing and othe developer concerns
     - Used when declaring dependencies for module definitions and controller functions
+
+## Handy Resources:
+- [@john_papa's opinionated style guide to AngularJS 1.5](https://github.com/johnpapa/angular-styleguide)
