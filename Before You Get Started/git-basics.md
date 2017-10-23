@@ -1,9 +1,24 @@
 ## Todd's Focus Questions:
 - _What is Git?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What is the Difference between func and func()?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What is a Repository or “Repo”?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What is the difference between a Parameter and an Argument/ how are the related?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What is the difference between local and global scope?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 
 ## Git is... 
 - pre-code structure

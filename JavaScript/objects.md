@@ -2,11 +2,29 @@
 
 ## Todd's Focus Questions:
 - _What is a Key/Value pair?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What are the differences between dot notation and bracket notation?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _How are arrays and objects different? How are the same?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What is a method?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What are some methods we can use to change the contents of an array?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What purpose does a callback serve?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 
 
 ### Classes Build Objects

@@ -1,7 +1,16 @@
 ## Todd's Focus Questions:
 - _Why would we want to use sessions?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What is a cookie?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _Is the session unique to each computer or login?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 
 # In-Class Notes
 ## What is middleware?

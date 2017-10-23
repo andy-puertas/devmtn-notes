@@ -2,10 +2,25 @@
 
 ## Todd's Focus Questions:
 - _What’s the difference between a block-level element and an inline element? Can you give an example of both?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What does the box-sizing: border-box help us do?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What’s the difference between fixed positioning and absolute positioning?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What can the float property be used for?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What does display: flex allow us to do?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 
 ## Position
 * defaults to static, where elements render in order as they appear in the document flow

@@ -2,10 +2,25 @@
 
 ## Todd's Focus Questions:
 - _What is CSS specificity?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _Why is DRY CSS important?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _Why do we use a Reset CSS file?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What is the CSS box model?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What's the difference between margin and padding?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 
 ## CSS Specificity
 - Which styles apply when there is a conflict?

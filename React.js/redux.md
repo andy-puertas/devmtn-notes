@@ -3,16 +3,64 @@ Redux
 
 ## Todd's Focus Questions:
 - _How does the router know to change the components on the page?_
+    <details>
+    <summary> <code> answer </code> </summary>
+
+    </details>
+
 - _What does the exact keyword do when using Router?_
+    <details>
+    <summary> <code> answer </code> </summary>
+
+    </details>
+
 - _How many child elements can router have?_
+    <details>
+    <summary> <code> answer </code> </summary>
+
+    - Only `1` child element
+    - If you need to return more than one `<div>`, wrap them in a single `<div>`
+        - (or `<View>` in react-native)
+
+    </details>
+
 - _What does the Switch Component do? What does sibling route mean?_
+    <details>
+    <summary> <code> answer </code> </summary>
+
+    </details>
+
 - _What does the Link component do?_
+    <details>
+    <summary> <code> answer </code> </summary>
+
+    </details>
+
 
 ## More Focus Questions:
 - _What does Redux help us do? How might this be helpful?_
+    <details>
+    <summary> <code> answer </code> </summary>
+
+    </details>
+
 - _What is immutability in javascript?_
+    <details>
+    <summary> <code> answer </code> </summary>
+
+    </details>
+
 - _What is the purpose of a reducer?_
+    <details>
+    <summary> <code> answer </code> </summary>
+
+    </details>
+
 - _How do we pass information to a reducer?_
+    <details>
+    <summary> <code> answer </code> </summary>
+
+    </details>
 
 
 ## Pre-Class

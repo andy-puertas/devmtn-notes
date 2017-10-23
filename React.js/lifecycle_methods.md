@@ -2,9 +2,34 @@
 
 ## Todd's Focus Questions:
 - _What are the differences between props and state?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
+
 - _How do we update values on state? Why do we do it this way?_
+    <details>
+    <summary> <code> answer </code> </summary>
+
+    - `this.setState()`
+
+    </details>
+
 - _In JavaScript, what are events?_
+    <details>
+    <summary> <code> answer </code> </summary>
+
+    - native functions of JavaScript that await user input
+
+    </details>
+
 - _How do we use props to pass information from a parent component to a child component?_
+    <details>
+    <summary> <code> answer </code> </summary>
+
+    - 
+
+    </details>
+
 
 ## Overview
 - Components allow you to split the UI into independent, reusable pieces, and think about each piece in isolation. 

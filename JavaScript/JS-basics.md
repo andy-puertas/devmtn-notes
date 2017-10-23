@@ -3,11 +3,29 @@ Getting Started with JavaScript
 
 ## Todd's Focus Questions:
 - _How do you loop through an Object? Why do you have to do it that way?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What is a method?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What is a constructor function?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _Why do we prefer prototypes over creating functions in objects?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _Can you add prototypes to existing data types?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What is the difference between classes and constructor function?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 
 ## How does the web work?
 - `HTTP://` = Hyper Text Transfer Protocol

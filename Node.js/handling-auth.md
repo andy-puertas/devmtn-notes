@@ -1,8 +1,20 @@
 ## Todd's Focus Questions:
 - _What does Massive allow us to do?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _How are Querys different from URL Parameters?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _When should we use Querys over URL Paramets?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _When does middleware run?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 
 ## Using Massive to Authenticate users
 ### When do we want to authenticate our users?

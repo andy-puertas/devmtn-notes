@@ -2,10 +2,85 @@
 
 ## Todd's Focus Questions:
 - _What does Asynchronous code mean and why is it important in HTTP?_
+    <details>
+    <summary> <code> answer </code> </summary>
+
+    Synchronous Programming:
+    - program ignores conditions and functional calls and executes code from top to bottom
+    - this causes a block on HTTP requests and other long-running tasks
+
+    Asynchronous Programming:
+    - allows the engine to run in an event loop
+    - when a blocking operation is needed, it begins the processes and then continues to execute code without pausing to await a (potentially long-delayed) response
+    - response is ready **->** interruptor is fired **->** flow continues
+        - think react lifecycles
+    - allows a single program thread to handle many event occurences 
+
+    </details>
+
 - _What is a Promise?_
+    <details>
+    <summary> <code> answer </code> </summary>
+
+    A value not yet available, as seen in callback functions.
+    - instead of stringing a bunch of `if/else` statements along to handle errors, `return new Promise` to await expected data without having to bounce a number of requests first
+
+    Allows you to write asynchronous code in a more synchronous fashion.
+
+    For example...
+
+    ```
+      function getCurrentTime(onSuccess, onFail) {
+      // GET the current 'global' time from an API using Promise
+        return new Promise((resolve, reject) => {
+            setTimeout(function() {
+            var didSucceed = Math.random() >= 0.5;
+            didSucceed ? resolve(new Date()) : reject('Error');
+            }, 2000);
+        })
+
+      getCurrentTime()
+        .then(currentTime => getCurrentTime())
+        .then(currentTime => {
+            console.log('The current time is: ' + currentTime);
+            return true;
+        })
+        .catch(err => console.log('There was an error:' + err))
+    ```
+
+    </details>
+
 - _When does a .then callback function run?_
+    <details>
+    <summary> <code> answer </code> </summary>
+
+    After the function it trails.
+    - For example...
+    ```
+      getData().then()
+    ```
+
+    </details>
+
 - _What is an API and what does it mean to “Make an API call?”?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    
+    An API is an **A**pplication **P**rogram **I**nterface and it...
+    - serves data to clients
+    - allows users to interact with data stored by a org through a website
+    - not a remote server, but instead a part of the server that sends and receives requests
+
+    </details>
+
 - _What is Axios?_
+    <details>
+    <summary> <code> answer </code> </summary>
+
+    
+
+    </details>
+
 
 ## Clients: 
 - Handle user interaction

@@ -2,10 +2,25 @@
 
 ## Todd's Focus Questions:
 - _What is React?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What is a Component?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _How is a Component similar to a function?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What is JSX and how is it similar to HTML, how is it different?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _Do we use a constructor function or class when making components?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 
 ## What is a component?
 - A page of script saved and later imported and inserted into mainframe code

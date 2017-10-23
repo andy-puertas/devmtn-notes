@@ -2,9 +2,21 @@
 
 ## Todd's Focus Questions:
 - *How is a closure created?*
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - *What happens if you have the same variable named on the global scope, and a functional scope?*
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - *What is a private variable?*
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - *Why would we want to use the module pattern?*
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 
 ## What are closures?
 - An integral component of asynchronous architecture 

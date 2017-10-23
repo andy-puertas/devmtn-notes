@@ -2,11 +2,29 @@
 
 ## Todd's Focus Questions:
 - _What do we use NPM for?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _How are package.json files useful?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What is a client? What is a server? Explain the data flow between them._
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _In the simplest terms, what does Node allow us to do?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What is an Endpoint?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 - _What is a URL Parameter?_
+    <details>
+    <summary> <code> answer </code> </summary>
+    </details>
 
 ## What is npm? 
 - npm comes from node modules, so no `./` necessary as prefix
