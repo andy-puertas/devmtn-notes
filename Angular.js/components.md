@@ -50,6 +50,12 @@ angular.module('moduleName').component('componentName', {
 - the `bindings` property on `.component()` allows us to define what we want to pass down to the component, assuming that our new component has isolate scope
     - `title: '@'`: functions as a path to pick up data and pass it on appropriately 
 
+## Dealing with Component Lifecycles (without using Lifecycle Methods)
+```
+this.$onInit = function() {
+    console.log('initiated!')
+}
+```
 
 ## Keywords:
 - **Meta information:** info about info (for example, in an SQL table with many records, the meta info might be the number of records)
