@@ -5,7 +5,7 @@
 - mini project: => [`basic-maths`](https://github.com/kale-stew/devmtn-notes/blobl/master/Unit-Testing/basic-maths)
 - afternoon project: [jest-in-action](https://github.com/devmountain/unit-testing-afternoon)
 
-## Week Ten, Day Two: 
+## Week Ten, Day Two: Testing Endpoints
 - => [``]()
 - mini project: [endpoint-testing](https://github.com/devmountain/endpoint-testing-mini)
 - afternoon project: [more-endpoints](https://github.com/devmountain/endpoint-testing-afternoon)
