@@ -1,6 +1,6 @@
 # Using Postman to run Unit Tests
 
-These solutions refer to the [`postman-testing`]() project in the [`Unit-Testing`]() directory of this git. 
+These solutions refer to the [`postman-testing`](https://github.com/kale-stew/devmtn-notes/tree/master/Unit-Testing/postman-testing) project in the [`Unit-Testing`](https://github.com/kale-stew/devmtn-notes/tree/master/Unit-Testing) directory of this git. 
 
 When in doubt, check out [the docs](https://www.getpostman.com/docs/postman/scripts/test_scripts).
 
