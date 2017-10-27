@@ -12,5 +12,4 @@ A project that helps us learn how to run and test postman calls using the postma
 - make sure you're receiving data in the `Body` below
 - then, click on the `Tests` tab under the request URL. This is where the Postman requests go.
 
-### The solutions are....
-## [here](https://github.com/kale-stew/devmtn-notes/blob/master/Unit-Testing/using-postman.md)
+### The solutions are: [here](https://github.com/kale-stew/devmtn-notes/blob/master/Unit-Testing/using-postman.md)
