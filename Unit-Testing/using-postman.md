@@ -82,7 +82,7 @@ pm.test('Response should include student with id: 9', () => {
 })
 ```
 
-### 3. Test the endpoint to GET a student by name
+### 3. Test the endpoint to GET a student by `student` (name)
 - `localhost:4000/api/students?name=la`
 - status code should return `200`
 - should return the following student with name `Abey Laynard`
@@ -104,7 +104,7 @@ pm.test('Abey Laynard in response', () => {
 ```
 
 
-### 4. Test the endpoint to GET students by grade
+### 4. Test the endpoint to GET students by `current_grade`
 - `localhost:4000/api/students?grade=c`
 - status code should return `200`
 - should return all student objects with a grade `C` as `current_grade`
@@ -114,7 +114,7 @@ pm.test('Abey Laynard in response', () => {
 ```
 
 
-### 5. Test the endpoint to GET a student by email
+### 5. Test the endpoint to GET a student by `email_address`
 - `localhost:4000/api/students?email=gdee@clickbank.net`
 - status code should return `200`
 - given the search string `gdee@clickbank.net`, `Gilbert De Gouy`'s student object should be the only return
@@ -132,11 +132,20 @@ pm.test('Abey Laynard in response', () => {
     ```
 
 ```
+const res = pm.response.json();
 
+pm.test('Status code is 200', () => {
+    pm.response.to.have.status(200);
+})
+
+pm.test('gilbert should be the only return', () => {
+    pm.expect(res.length).to.eql(1);
+    pm.expect(res[0].id).to.eql(15);
+})
 ```
 
 
-### 6. Test the endpoint to GET students by phone
+### 6. Test the endpoint to GET students by `phone`
 - `localhost:4000/api/students?phone=608`
 - status code should return `200`
 - all object returned contain the numbers `608`, in that order
@@ -173,7 +182,7 @@ pm.test('students grade can be changed', () => {
 ```
 
 
-### 8. Test the endpoint to POST a new student to the class
+### 8. Test the endpoint to POST a new `student` to the class
 - `localhost:4000/api/students`
 - status code should return `200`
 - verify the new user object created contains the following:
@@ -186,11 +195,20 @@ pm.test('students grade can be changed', () => {
 ```
 
 
-### 9. Test the endpoint to DELETE a student from the class
+### 9. Test the endpoint to DELETE a `student` from the class
 - `localhost:4000/api/students/18`
 - status code should return `200`
 - ID of object in response is `18`
 
 ```
+const res = pm.response.text(); 
+// we want our data in text not json format
 
+pm.test('Status code is 200', () => {
+    pm.response.to.have.status(404);
+})
+
+pm.test('student w id 18 is removed', () => {
+    pm.expect(res).to.eql('No student with that ID.');
+})
 ```
